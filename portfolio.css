@@ -594,18 +594,12 @@
 .portfolio-link12 {
   display: contents;
 }
-.portfolio-link13 {
-  display: contents;
-}
-.portfolio-link14 {
-  display: contents;
+.portfolio-senioritis-pfp-container {
+  text-decoration: none;
 }
 .portfolio-praise-git-hub-container {
   width: 100%;
   height: auto;
-}
-.portfolio-link15 {
-  display: contents;
 }
 .portfolio-animations {
   gap: var(--dl-space-space-fiveunits);
@@ -639,14 +633,14 @@
   flex-direction: row;
   justify-content: center;
 }
-.portfolio-link16 {
+.portfolio-link13 {
   display: contents;
 }
 .portfolio-alex-container {
   width: 100%;
   text-decoration: none;
 }
-.portfolio-link17 {
+.portfolio-link14 {
   display: contents;
 }
 .portfolio-container6 {
@@ -703,7 +697,7 @@
   flex-direction: row;
   justify-content: center;
 }
-.portfolio-link18 {
+.portfolio-link15 {
   display: contents;
 }
 .portfolio-art-station-image1 {
@@ -722,7 +716,7 @@
   border-width: 1px;
   border-radius: var(--dl-radius-radius-round);
 }
-.portfolio-link19 {
+.portfolio-link16 {
   display: contents;
 }
 .portfolio-github-image1 {
@@ -750,7 +744,7 @@
   flex-direction: row;
   justify-content: center;
 }
-.portfolio-link20 {
+.portfolio-link17 {
   display: contents;
 }
 .portfolio-itch-io-image1 {
@@ -769,7 +763,7 @@
   border-width: 1px;
   border-radius: var(--dl-radius-radius-round);
 }
-.portfolio-link21 {
+.portfolio-link18 {
   display: contents;
 }
 .portfolio-linkedin-image1 {

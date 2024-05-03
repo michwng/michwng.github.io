@@ -399,6 +399,10 @@
 .lore-andrew-johnson-elementary-school-picture {
   width: auto;
   height: auto;
+  transition: 0.3s;
+}
+.lore-andrew-johnson-elementary-school-picture:hover {
+  width: 100%;
 }
 .lore-section-separator {
   width: 100%;
@@ -753,7 +757,6 @@
 }
 .lore-container05 {
   width: 650px;
-  height: 450px;
   align-self: stretch;
 }
 .lore-container06 {
@@ -1611,6 +1614,11 @@
 .lore-pasted-image {
   width: 620px;
   height: 330px;
+  transition: 0.3s;
+}
+.lore-pasted-image:hover {
+  width: 80%;
+  height: auto;
 }
 .lore-raze-2 {
   gap: var(--dl-space-space-doubleunit);
@@ -1688,6 +1696,11 @@
 .lore-raze-2-image {
   width: 620px;
   height: 330px;
+  transition: 0.3s;
+}
+.lore-raze-2-image:hover {
+  width: 80%;
+  height: auto;
 }
 .lore-warfare-1917 {
   gap: var(--dl-space-space-doubleunit);
@@ -1765,6 +1778,11 @@
 .lore-warfare-1917-image {
   width: 620px;
   height: 330px;
+  transition: 0.3s;
+}
+.lore-warfare-1917-image:hover {
+  width: 80%;
+  height: auto;
 }
 .lore-sonny-1 {
   gap: var(--dl-space-space-doubleunit);
@@ -1842,6 +1860,11 @@
 .lore-sonny-1-image {
   width: 620px;
   height: 330px;
+  transition: 0.3s;
+}
+.lore-sonny-1-image:hover {
+  width: 80%;
+  height: auto;
 }
 .lore-storm-winds-15 {
   gap: var(--dl-space-space-doubleunit);
@@ -1919,6 +1942,11 @@
 .lore-pasted-image1 {
   width: 620px;
   height: 330px;
+  transition: 0.3s;
+}
+.lore-pasted-image1:hover {
+  width: 80%;
+  height: auto;
 }
 .lore-footer-container {
   width: 100%;

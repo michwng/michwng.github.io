@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="en"
+  ><head
+    ><title>Michael Ng</title
+    ><meta property="og:title" content="Michael Ng" /><meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0" /><meta
+      charset="utf-8" /><meta
+      property="twitter:card"
+      content="summary_large_image" /><style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }</style
+    ><style data-tag="default-style-sheet">
+      html {
+        font-family: Arial;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.55;
+        color: var(--dl-color-gray-black);
+        background-color: var(--dl-color-gray-white);
+
+        null
+      }</style
+    ><link
+      rel="stylesheet"
+      href="https://unpkg.com/animate.css@4.1.1/animate.css" /><link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap"
+      data-tag="font" /><link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font" /><link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font" /><link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font" /><link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&amp;display=swap"
+      data-tag="font" /><link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font" /><link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font" /><link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font" /><link
+      rel="stylesheet"
+      href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css" /></head
+  ><body
+    ><link rel="stylesheet" href="./style.css" /><div
+      ><link href="./lore.css" rel="stylesheet" /><div class="lore-container"
+        ><div data-role="Header" class="lore-navigation-bar"
+          ><div class="lore-container01"
+            ><a href="index.html" class="lore-navlink"
+              ><img
+                alt="image"
+                src="public/michael%20ng%20logo-200h.png"
+                class="lore-michael-ng-image" /></a
+            ><div class="lore-social-links"
+              ><div class="lore-container02"
+                ><a
+                  href="https://www.artstation.com/michaelng8"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  class="lore-link"
+                  ><img
+                    alt="image"
+                    src="data:image/svg+xml;charset=utf-8;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHdpZHRoPSczNScgaGVpZ2h0PSczMicgZmlsbD0nbm9uZSc+PHBhdGggZmlsbD0nIzEzQUZGMCcgZmlsbC1ydWxlPSdldmVub2RkJyBkPSdNMzUgMjQuMzU0YzAtLjcwNC0uMjA4LTEuMzYtLjU2NS0xLjkxTDIyLjkzNyAyLjUyNUEzLjUzNiAzLjUzNiAwIDAgMCAxOS44MTMuNjUyaC02LjA3N2wxNy43NiAzMC42NjYgMi44LTQuODMzYy41NTMtLjkyNS43MDQtMS4zMzQuNzA0LTIuMTMxWm0tMzUtLjAzNyAyLjk1NiA1LjA5M2guMDAxYTMuNTM2IDMuNTM2IDAgMCAwIDMuMTU3IDEuOTM4aDE5LjYyNGwtNC4wNzItNy4wM0gwWk0xMC44MzIgNS42MjFsNy45MzggMTMuNzAxSDIuODkzbDcuOTM5LTEzLjcwMVonIGNsaXAtcnVsZT0nZXZlbm9kZCcvPjwvc3ZnPg=="
+                    class="lore-art-station-image" /></a
+                ><a
+                  href="https://github.com/michwng"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  class="lore-link01"
+                  ><img
+                    alt="image"
+                    src="public/external/github%20logo-200h-200h-200h.jpg"
+                    class="lore-github-image" /></a></div
+              ><div class="lore-container03"
+                ><a
+                  href="https://pyronian-studios.itch.io"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  class="lore-link02"
+                  ><img
+                    alt="image"
+                    src="https://static.itch.io/images/itchio-textless-black.svg"
+                    viewbox="0 0 877.7142857142857 1024"
+                    class="lore-itch-io-image" /></a
+                ><a
+                  href="https://www.linkedin.com/in/michael-ng-9325321b6/"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  class="lore-link03"
+                  ><img
+                    alt="image"
+                    src="public/external/lilogo-200h-200h-200h.png"
+                    class="lore-linkedin-image" /></a></div></div
+            ><div class="lore-contact-text"
+              ><span class="lore-email-text"
+                ><a
+                  href="mailto:mwnmwn07@gmail.com?subject="
+                  class="lore-link04"
+                  >mwnmwn07@gmail.com</a
+                ><br /></span
+              ><a href="tel:(423)723-9816" class="lore-phone-num-text"
+                >(423)723-9816</a
+              ></div
+            ></div
+          ><div class="lore-separator"></div
+          ><nav class="lore-navigation-links-container"
+            ><nav
+              class="navigation-links-nav navigation-links-root-class-name14"
+              ><a href="index.html" class="navigation-links-navlink"
+                ><span>Home</span></a
+              ><a href="portfolio.html" class="navigation-links-navlink1"
+                ><span>Portfolio</span></a
+              ><a href="lore.html" class="navigation-links-navlink2"
+                ><span>Lore</span></a
+              ></nav
+            ></nav
+          ></div
+        ><div class="lore-background-section"
+          ><div class="lore-background-container"
+            ><h2 class="lore-background-text">Background</h2></div
+          ><div class="lore-text-and-image-container"
+            ><div class="lore-text-container"
+              ><span class="lore-text001"
+                ><span
+                  >I was born in Kingsport, TN and have lived there all my life. </span
+                ><br /><span
+                  >I attended Andrew Johnson Elementary School, Robinson Middle
+                  School, and Dobyns-Bennett High School.</span
+                ><br /><span
+                  >I also was accepted into East Tennessee State University and
+                  received by B.S. in Information Technology.</span
+                ><br /><span
+                  >I am currently looking for a job but it looks like 2024 is
+                  not merciful. So I made this website.</span
+                ><br /></span></div
+            ><img
+              alt="pastedImage"
+              src="public/external/pastedimage-i2t-300h.png"
+              class="lore-andrew-johnson-elementary-school-picture" /></div></div
+        ><div class="lore-section-separator"></div
+        ><div class="lore-about-me"
+          ><div class="lore-about-me-heading-container"
+            ><h1 class="lore-about-me-heading Section-Heading"
+              >About Me, Specifically</h1
+            ></div
+          ><div class="lore-top-row-container"
+            ><div class="lore-race-container"
+              ><span class="lore-text010">Race</span
+              ><span class="lore-text011">Asian</span></div
+            ><div class="lore-gender-container"
+              ><span class="lore-text012">Gender</span
+              ><span class="lore-text013">Male (He/Him)</span></div
+            ><div class="lore-down-there-container"
+              ><span class="lore-text014">"Down There"</span
+              ><span class="lore-text015"
+                ><span>Can Pee Standing Up</span><br /></span></div></div
+          ><div class="lore-bottom-row-container"
+            ><div class="lore-myers-briggs-personality"
+              ><span class="lore-text018"
+                ><span>Myers-Briggs</span><br /><span>Personality</span
+                ><br /></span
+              ><span class="lore-text023">INFJ (Advocate)</span></div
+            ><div class="lore-ennagram-test-container"
+              ><span class="lore-heading"><span>Ennagram Test</span><br /></span
+              ><div class="lore-container04"
+                ><span class="lore-text026"
+                  ><span>Type 1 - 10.4</span><br /><span>Type 2 - 8.4</span
+                  ><br /><span>Type 6 - 8.4</span><br /><span>Type 4 - 8</span
+                  ><br /><span>Type 9 - 8</span><br /><span>Type 5 - 7.7</span
+                  ><br /><span>Type 3 - 7</span><br /></span></div></div
+            ><div class="lore-alliegance-container"
+              ><span class="lore-text041">Alliegance</span
+              ><span class="lore-text042"
+                ><span>United States</span><br /></span></div></div></div
+        ><div class="lore-section-separator1"></div
+        ><div class="lore-special-section"
+          ><div class="lore-special-container"
+            ><h2 class="lore-special-heading Section-Heading"
+              >S.P.E.C.I.A.L.</h2
+            ></div
+          ><div class="lore-text-and-video-container"
+            ><div class="lore-text-container01"
+              ><span class="lore-text045"
+                ><span class="lore-text046">Strength: 3</span
+                ><br class="lore-text047" /><span class="lore-text048"
+                  >Perception: 3</span
+                ><br class="lore-text049" /><span class="lore-text050"
+                  >Endurance: 7</span
+                ><br class="lore-text051" /><span class="lore-text052"
+                  >Charisma: 2</span
+                ><br class="lore-text053" /><span class="lore-text054"
+                  >Intelligence: 8</span
+                ><br class="lore-text055" /><span class="lore-text056"
+                  >Agility: 7</span
+                ><br class="lore-text057" /><span class="lore-text058"
+                  >Luck: 5</span
+                ><br class="lore-text059" /></span></div
+            ><div class="lore-container05"
+              ><div class="lore-container06"
+                ><iframe
+                  width="650"
+                  height="450"
+                  src="https://www.youtube.com/embed/AY2jPAb6BOQ"
+                  title="Fallout 4: What makes you S.P.E.C.I.A.L. (All S.P.E.C.I.A.L. videos combined)"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  referrerpolicy="strict-origin-when-cross-origin"
+                  allowfullscreen=""
+                ></iframe></div></div></div></div
+        ><div class="lore-what-i-want-to-do-section"
+          ><div class="lore-what-i-want-to-do-heading"
+            ><h2 class="lore-text060 Section-Heading SectionHeading"
+              >What I Want To Do</h2
+            ></div
+          ><div class="lore-text-and-picture"
+            ><span class="lore-text061"
+              ><span
+                >I have a strong passion in making video games, anime,
+                animation, music, and AI learning. In the future, I would like
+                to effectively learn to use Blender, Unity, and Unreal Engine.
+                As of now, I have only a classroom-level understanding of all 3
+                of these.</span
+              ><br /><br /><span
+                >My goal in life is to make the world better. I want to give
+                people hope in these times. I look up to games like Undertale
+                and Fire Emblem: Three Houses, for example.</span
+              ><br /><br /><span
+                >In high school, I discovered that I have a natural talent for
+                writing stories. Whether that includes Poetry or Narratives. I
+                am also a strong proponent and user of Chekhov's Gun.</span
+              ><br /></span
+            ><img
+              alt="pastedImage"
+              src="public/external/pastedimage-2ihm-200h.png"
+              class="lore-chekhovs-gun-picture" /></div></div
+        ><div class="lore-my-favorite-section"
+          ><div class="lore-my-favorite-heading"
+            ><h1 class="lore-text070">My Favorite...</h1></div
+          ><div class="lore-top-row-container1"
+            ><div class="lore-video-games"
+              ><span class="lore-text071">Video Games</span
+              ><div class="lore-container07"
+                ><div class="lore-container08"
+                  ><div class="lore-container09"
+                    ><span class="lore-text072"
+                      ><span>1. Fire Emblem: Three Houses</span
+                      ><br /></span></div
+                  ><div class="lore-container10"
+                    ><span class="lore-text075"
+                      ><span>2. Mario Kart 8</span><br /></span></div
+                  ><div class="lore-container11"
+                    ><span class="lore-text078"
+                      ><span>3. The Sims 4</span><br /></span></div
+                  ><div class="lore-container12"
+                    ><span class="lore-text081"
+                      ><span>4. Captain Tsubasa: Rise of New Champions</span
+                      ><br /></span></div
+                  ><div class="lore-container13"
+                    ><span class="lore-text084"
+                      ><span>5. Kingdom Come: Deliverance</span
+                      ><br /></span></div></div></div></div
+            ><div class="lore-animes"
+              ><span class="lore-text087">Animes</span
+              ><div class="lore-container14"
+                ><div class="lore-container15"
+                  ><div class="lore-container16"
+                    ><span class="lore-text088"
+                      ><span>1. Ace Attorney</span><br /></span></div
+                  ><div class="lore-container17"
+                    ><span class="lore-text091"
+                      ><span>2. Death Note</span><br /></span></div
+                  ><div class="lore-container18"
+                    ><span class="lore-text094"
+                      ><span>3. One Punch Man</span><br /></span></div
+                  ><div class="lore-container19"
+                    ><span class="lore-text097"
+                      ><span>4. Attack on Titan</span><br /></span></div
+                  ><div class="lore-container20"
+                    ><span class="lore-text100"
+                      ><span>5. The Disastrous Life of Saiki K.</span
+                      ><br /></span></div></div></div></div
+            ><div class="lore-stories-and-plotlines"
+              ><span class="lore-section-header">Stories/Plotlines</span
+              ><div class="lore-container21"
+                ><div class="lore-container22"
+                  ><span class="lore-text103"
+                    ><span>1. Tales of the Abyss (Anime)</span
+                    ><br /></span></div
+                ><div class="lore-container23"
+                  ><span class="lore-text106"
+                    ><span>2. Attack on Titan (Anime)</span><br /></span></div
+                ><div class="lore-container24"
+                  ><span class="lore-text109"
+                    ><span>3. Doki Doki Literature Club (Visual Novel)</span
+                    ><br /></span></div
+                ><div class="lore-container25"
+                  ><span class="lore-text112"
+                    ><span
+                      >4. Ace Attorney: Trails &amp; Tribulations [Video
+                      Game]</span
+                    ><br /></span></div
+                ><div class="lore-container26"
+                  ><span class="lore-text115"
+                    ><span
+                      >5. Five Nights at Freddy's (Wendigoon's Storyline)</span
+                    ><br /></span></div></div></div></div
+          ><div class="lore-bottom-row-container1"
+            ><div class="lore-soundtracks"
+              ><span class="lore-soundtracks-heading"
+                ><span>Soundtracks</span><br /></span
+              ><div class="lore-container27"
+                ><div class="lore-container28"
+                  ><span class="lore-text120"
+                    ><span
+                      >1. Title Intro (Fire Emblem Echoes: Shadows of
+                      Valentia)</span
+                    ><br /></span></div
+                ><div class="lore-container29"
+                  ><span class="lore-text123"
+                    ><span>2. Fódlan Winds (Fire Emblem: Three Houses)</span
+                    ><br /></span></div
+                ><div class="lore-container30"
+                  ><span class="lore-text126"
+                    >3. Squad Loadout (XCOM 2)</span
+                  ></div
+                ><div class="lore-container31"
+                  ><span class="lore-text127"
+                    ><span>4. Duty Calls (Sonny 1)</span><br /></span></div
+                ><div class="lore-container32"
+                  ><span class="lore-text130"
+                    >5. Stand and Defend (Club Penguin)</span
+                  ></div
+                ></div
+              ></div
+            ><div class="lore-songs"
+              ><span class="lore-songs-header"><span>Songs</span><br /></span
+              ><div class="lore-container33"
+                ><div class="lore-container34"
+                  ><span class="lore-text133"
+                    >1. Karma - Bump of Chicken</span
+                  ></div
+                ><div class="lore-container35"
+                  ><span class="lore-text134"
+                    >2. Guren no Yumiya - Linked Horizon</span
+                  ></div
+                ><div class="lore-container36"
+                  ><span class="lore-text135"
+                    >3. Bad Apple!! - Alstroemeria Records</span
+                  ></div
+                ><div class="lore-container37"
+                  ><span class="lore-text136">4. Harujion - YOASOBI</span></div
+                ><div class="lore-container38"
+                  ><span class="lore-text137"
+                    >5. It Has To Be This Way - Metal Gear Rising:
+                    Revengeance</span
+                  ></div
+                ></div
+              ></div
+            ><div class="lore-characters"
+              ><span class="lore-text138">Characters</span
+              ><div class="lore-container39"
+                ><div class="lore-container40"
+                  ><span class="lore-text139"
+                    >1. Luke Fon Fabre [Tales of the Abyss]</span
+                  ></div
+                ><div class="lore-container41"
+                  ><span class="lore-text140"
+                    >2. Dimitri Alexandre Blaiddyd [FE: Three Houses]</span
+                  ></div
+                ><div class="lore-container42"
+                  ><span class="lore-text141"
+                    >3. Light Yagami [Death Note]</span
+                  ></div
+                ><div class="lore-container43"
+                  ><span class="lore-text142"
+                    >4. Luigi [Mario &amp; Luigi RPG]</span
+                  ></div
+                ><div class="lore-container44"
+                  ><span class="lore-text143"
+                    >5. Yuri Lowell [Tales of Vesperia]</span
+                  ></div
+                ></div
+              ></div
+            ></div
+          ></div
+        ><div class="lore-childhood-section"
+          ><div class="lore-childhood-heading"
+            ><h1 class="lore-text144 Section-Heading">Childhood</h1></div
+          ><span class="lore-childhood-description"
+            ><span
+              >My childhood was mostly spent with my grandparents. My mother was
+              working all-day, all-week as a waiter at Ming Garden Chinese
+              Restaurant while my father was unwilling to care for me. So, I
+              spent these days with my grandparents. Then, I discovered flash
+              games and really enjoyed them. Yes, Adobe Flash Player was
+              discontinued in 2021, but it lives on in </span
+            ><a
+              href="https://flashpointarchive.org"
+              target="_blank"
+              rel="noreferrer noopener"
+              class="lore-link05"
+              >Flashpoint Archive</a
+            ><span>.</span><br /><br /><span
+              >Here's a few games I recommend trying out if you download
+              Flashpoint Archive:</span
+            ><br /></span
+          ><div class="lore-games-list"
+            ><div class="lore-the-last-stand-dead-zone"
+              ><div class="lore-container45"
+                ><div class="lore-container46"
+                  ><div class="lore-text-container02"
+                    ><span class="lore-text151"
+                      >The Last Stand: Dead Zone</span
+                    ></div
+                  ></div
+                ><div class="lore-text-container03"
+                  ><span class="lore-text152"
+                    >Unfortunately, this game was taken down along with Adobe
+                    Flash Player. It could not be preserved because the game
+                    relied on a server connection to play. There are no legacy
+                    servers for this game.</span
+                  ></div
+                ></div
+              ><img
+                alt="pastedImage"
+                src="public/external/pastedimage-bch-1500w.png"
+                class="lore-pasted-image" /></div
+            ><div class="lore-raze-2"
+              ><div class="lore-container47"
+                ><div class="lore-container48"
+                  ><div class="lore-text-container04"
+                    ><span class="lore-text153">Raze 2</span></div
+                  ></div
+                ><div class="lore-text-container05"
+                  ><span class="lore-text154"
+                    >No Remastered Version - Use Flashpoint Archive</span
+                  ></div
+                ></div
+              ><img
+                alt="pastedImage"
+                src="public/external/pastedimage-fwh-1500w.png"
+                class="lore-raze-2-image" /></div
+            ><div class="lore-warfare-1917"
+              ><div class="lore-container49"
+                ><div class="lore-container50"
+                  ><div class="lore-text-container06"
+                    ><span class="lore-text155">Warfare 1917</span></div
+                  ></div
+                ><div class="lore-text-container07"
+                  ><span class="lore-text156"
+                    >No Remastered Version - Use Flashpoint Archive</span
+                  ></div
+                ></div
+              ><img
+                alt="pastedImage"
+                src="public/external/pastedimage-uxd-1500w.png"
+                class="lore-warfare-1917-image" /></div
+            ><div class="lore-sonny-1"
+              ><div class="lore-container51"
+                ><div class="lore-container52"
+                  ><div class="lore-text-container08"
+                    ><span class="lore-text157">Sonny 1</span></div
+                  ></div
+                ><div class="lore-text-container09"
+                  ><span class="lore-text158"
+                    >Reimagined Version on Steam</span
+                  ></div
+                ></div
+              ><img
+                alt="pastedImage"
+                src="public/external/pastedimage-uqfj-1500w.png"
+                class="lore-sonny-1-image" /></div
+            ><div class="lore-storm-winds-15"
+              ><div class="lore-container53"
+                ><div class="lore-container54"
+                  ><div class="lore-text-container10"
+                    ><span class="lore-text159">StormWinds 1.5</span></div
+                  ></div
+                ><div class="lore-text-container11"
+                  ><span class="lore-text160"
+                    >No Remastered Version - Use Flashpoint Archive</span
+                  ></div
+                ></div
+              ><img
+                alt="pastedImage"
+                src="public/external/pastedimage-x5ys-1500w.png"
+                class="lore-pasted-image1" /></div></div></div
+        ><div class="lore-footer-container"
+          ><div class="lore-footer"
+            ><div class="lore-social-links1"
+              ><div class="lore-container55"
+                ><a
+                  href="https://www.artstation.com/michaelng8"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  class="lore-link06"
+                  ><img
+                    alt="image"
+                    src="data:image/svg+xml;charset=utf-8;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHdpZHRoPSczNScgaGVpZ2h0PSczMicgZmlsbD0nbm9uZSc+PHBhdGggZmlsbD0nIzEzQUZGMCcgZmlsbC1ydWxlPSdldmVub2RkJyBkPSdNMzUgMjQuMzU0YzAtLjcwNC0uMjA4LTEuMzYtLjU2NS0xLjkxTDIyLjkzNyAyLjUyNUEzLjUzNiAzLjUzNiAwIDAgMCAxOS44MTMuNjUyaC02LjA3N2wxNy43NiAzMC42NjYgMi44LTQuODMzYy41NTMtLjkyNS43MDQtMS4zMzQuNzA0LTIuMTMxWm0tMzUtLjAzNyAyLjk1NiA1LjA5M2guMDAxYTMuNTM2IDMuNTM2IDAgMCAwIDMuMTU3IDEuOTM4aDE5LjYyNGwtNC4wNzItNy4wM0gwWk0xMC44MzIgNS42MjFsNy45MzggMTMuNzAxSDIuODkzbDcuOTM5LTEzLjcwMVonIGNsaXAtcnVsZT0nZXZlbm9kZCcvPjwvc3ZnPg=="
+                    loading="lazy"
+                    class="lore-art-station-image1" /></a
+                ><a
+                  href="https://github.com/michwng"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  class="lore-link07"
+                  ><img
+                    alt="image"
+                    src="public/external/github%20logo-200h-200h-200h.jpg"
+                    loading="lazy"
+                    class="lore-github-image1" /></a></div
+              ><div class="lore-container56"
+                ><a
+                  href="https://pyronian-studios.itch.io"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  class="lore-link08"
+                  ><img
+                    alt="image"
+                    src="https://static.itch.io/images/itchio-textless-black.svg"
+                    loading="lazy"
+                    viewbox="0 0 877.7142857142857 1024"
+                    class="lore-itch-io-image1" /></a
+                ><a
+                  href="https://www.linkedin.com/in/michael-ng-9325321b6/"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  class="lore-link09"
+                  ><img
+                    alt="image"
+                    src="public/external/lilogo-200h-200h-200h.png"
+                    loading="lazy"
+                    class="lore-linkedin-image1" /></a></div></div
+            ><div class="lore-copyright-container"
+              ><svg viewBox="0 0 1024 1024" class="lore-icon">
+                <path
+                  d="M512 854q140 0 241-101t101-241-101-241-241-101-241 101-101 241 101 241 241 101zM512 86q176 0 301 125t125 301-125 301-301 125-301-125-125-301 125-301 301-125zM506 390q-80 0-80 116v12q0 116 80 116 30 0 50-17t20-43h76q0 50-44 88-42 36-102 36-80 0-122-48t-42-132v-12q0-82 40-128 48-54 124-54 66 0 104 38 42 42 42 98h-76q0-14-6-26-10-20-14-24-20-20-50-20z"
+                ></path></svg
+              ><span class="Anchor">Copyright Michael Ng, 2024</span></div
+            ></div
+          ></div
+        ></div
+      ></div
+    >
+    <script
+      defer=""
+      src="https://unpkg.com/@teleporthq/teleport-custom-scripts"
+    ></script></body
+></html>

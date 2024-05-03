@@ -1,0 +1,2310 @@
+.navigation-links-nav {
+  gap: var(--dl-space-space-tripleunit);
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.navigation-links-navlink {
+  fill: var(--dl-color-gray-white);
+  color: var(--dl-color-gray-white);
+  font-size: 30px;
+  text-align: justify;
+  transition: 0.3s;
+  text-decoration: none;
+}
+.navigation-links-navlink:hover {
+  fill: var(--dl-color-gray-white);
+  background: repeating-linear-gradient(-45deg, red 0%, yellow 7.14%, lime, 21.4%, cyan 28.56%, blue 35.7%, magenta 42.84%, red 50%);
+  padding-top: var(--dl-space-space-unit);
+  border-color: var(--dl-color-gray-900);
+  border-width: 2px;
+  padding-left: var(--dl-space-space-doubleunit);
+  border-radius: 25px;
+  padding-right: var(--dl-space-space-doubleunit);
+  padding-bottom: var(--dl-space-space-unit);
+  background-color: #1e1e1e;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.navigation-links-navlink1 {
+  fill: var(--dl-color-gray-white);
+  color: var(--dl-color-gray-white);
+  font-size: 30px;
+  text-align: justify;
+  transition: 0.3s;
+  margin-left: 0px;
+  text-decoration: none;
+}
+.navigation-links-navlink1:hover {
+  fill: var(--dl-color-gray-white);
+  background: repeating-linear-gradient(-45deg, red 0%, yellow 7.14%, lime, 21.4%, cyan 28.56%, blue 35.7%, magenta 42.84%, red 50%);
+  padding-top: var(--dl-space-space-unit);
+  border-color: var(--dl-color-gray-900);
+  border-width: 2px;
+  padding-left: var(--dl-space-space-doubleunit);
+  border-radius: 25px;
+  padding-right: var(--dl-space-space-doubleunit);
+  padding-bottom: var(--dl-space-space-unit);
+  background-color: #1e1e1e;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.navigation-links-navlink2 {
+  fill: var(--dl-color-gray-white);
+  color: var(--dl-color-gray-white);
+  font-size: 30px;
+  text-align: justify;
+  transition: 0.3s;
+  margin-left: 0px;
+  text-decoration: none;
+}
+.navigation-links-navlink2:hover {
+  fill: var(--dl-color-gray-white);
+  background: repeating-linear-gradient(-45deg, red 0%, yellow 7.14%, lime, 21.4%, cyan 28.56%, blue 35.7%, magenta 42.84%, red 50%);
+  padding-top: var(--dl-space-space-unit);
+  border-color: var(--dl-color-gray-900);
+  border-width: 2px;
+  padding-left: var(--dl-space-space-doubleunit);
+  border-radius: 25px;
+  padding-right: var(--dl-space-space-doubleunit);
+  padding-bottom: var(--dl-space-space-unit);
+  background-color: #1e1e1e;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width: 767px) {
+  .navigation-links-nav {
+    gap: var(--dl-space-space-tripleunit);
+    align-items: flex-start;
+    flex-direction: row;
+  }
+  .navigation-links-navlink {
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .navigation-links-navlink1 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .navigation-links-navlink2 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+}
+@media(max-width: 479px) {
+  .navigation-links-nav {
+    gap: var(--dl-space-space-tripleunit);
+    flex-direction: row;
+  }
+}
+
+.lore-container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  background-color: #000000;
+}
+.lore-navigation-bar {
+  width: 100%;
+  display: flex;
+  z-index: 100;
+  position: fixed;
+  align-items: center;
+  padding-top: 32px;
+  padding-left: 48px;
+  padding-right: 48px;
+  flex-direction: column;
+  padding-bottom: 32px;
+  justify-content: center;
+}
+.lore-container01 {
+  gap: var(--dl-space-space-tenunits);
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+.lore-navlink {
+  display: contents;
+}
+.lore-michael-ng-image {
+  width: 33%;
+  object-fit: cover;
+  text-decoration: none;
+}
+.lore-social-links {
+  gap: var(--dl-space-space-doubleunit);
+  display: flex;
+  align-items: center;
+  padding-top: var(--dl-space-space-unit);
+  padding-left: var(--dl-space-space-doubleunit);
+  border-radius: 25px;
+  padding-right: var(--dl-space-space-doubleunit);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-unit);
+  justify-content: center;
+  background-color: var(--dl-color-gray-500);
+}
+.lore-container02 {
+  gap: var(--dl-space-space-doubleunit);
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+.lore-link {
+  display: contents;
+}
+.lore-art-station-image {
+  width: 24px;
+  height: 24px;
+  object-fit: cover;
+  transition: 0.3s;
+  margin-right: 0px;
+  text-decoration: none;
+}
+.lore-art-station-image:hover {
+  width: 40px;
+  height: 40px;
+  padding: 0px;
+  border-color: var(--dl-color-gray-black);
+  border-width: 1px;
+  border-radius: var(--dl-radius-radius-round);
+}
+.lore-link01 {
+  display: contents;
+}
+.lore-github-image {
+  width: 24px;
+  height: 24px;
+  object-fit: cover;
+  transition: 0.3s;
+  margin-right: 0px;
+  text-decoration: none;
+}
+.lore-github-image:hover {
+  width: 40px;
+  height: 40px;
+  border-color: var(--dl-color-gray-black);
+  border-width: 1px;
+  border-radius: var(--dl-radius-radius-round);
+}
+.lore-container03 {
+  gap: var(--dl-space-space-doubleunit);
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+.lore-link02 {
+  display: contents;
+}
+.lore-itch-io-image {
+  width: 24px;
+  height: 24px;
+  object-fit: cover;
+  transition: 0.3s;
+  margin-right: 0px;
+  text-decoration: none;
+}
+.lore-itch-io-image:hover {
+  width: 40px;
+  height: 40px;
+  padding: 0px;
+  border-color: var(--dl-color-gray-black);
+  border-width: 1px;
+  border-radius: var(--dl-radius-radius-round);
+}
+.lore-link03 {
+  display: contents;
+}
+.lore-linkedin-image {
+  width: 24px;
+  height: 24px;
+  object-fit: cover;
+  transition: 0.3s;
+  margin-right: 0px;
+  text-decoration: none;
+}
+.lore-linkedin-image:hover {
+  width: 40px;
+  height: 40px;
+  border-color: var(--dl-color-gray-black);
+  border-width: 1px;
+  border-radius: var(--dl-radius-radius-round);
+}
+.lore-contact-text {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: center;
+  margin-right: 0px;
+  flex-direction: column;
+  justify-content: center;
+}
+.lore-email-text {
+  color: var(--dl-color-gray-white);
+  font-size: 25px;
+  text-align: center;
+  transition: 0.3s;
+  font-family: "Overpass";
+  line-height: 1.65;
+}
+.lore-email-text:hover {
+  background: repeating-linear-gradient(-45deg, red 0%, yellow 7.14%, lime, 21.4%, cyan 28.56%, blue 35.7%, magenta 42.84%, red 50%);
+  padding-top: var(--dl-space-space-unit);
+  border-color: var(--dl-color-gray-white);
+  border-width: 2px;
+  padding-left: var(--dl-space-space-doubleunit);
+  border-radius: 25px;
+  padding-right: var(--dl-space-space-doubleunit);
+  padding-bottom: var(--dl-space-space-unit);
+  background-color: #464646;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.lore-link04 {
+  text-decoration: underline;
+}
+.lore-phone-num-text {
+  color: var(--dl-color-gray-white);
+  font-size: 25px;
+  text-align: center;
+  transition: 0.3s;
+  font-family: "Overpass";
+  line-height: 1.65;
+}
+.lore-phone-num-text:hover {
+  background: repeating-linear-gradient(-45deg, red 0%, yellow 7.14%, lime, 21.4%, cyan 28.56%, blue 35.7%, magenta 42.84%, red 50%);
+  padding-top: var(--dl-space-space-unit);
+  border-color: var(--dl-color-gray-white);
+  border-width: 2px;
+  padding-left: var(--dl-space-space-doubleunit);
+  border-radius: 25px;
+  padding-right: var(--dl-space-space-doubleunit);
+  padding-bottom: var(--dl-space-space-unit);
+  background-color: #464646;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.lore-separator {
+  width: 100%;
+  height: 1px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: var(--dl-color-gray-900);
+}
+.lore-background-section {
+  width: 100%;
+  height: auto;
+  display: flex;
+  max-width: 100%;
+  min-width: auto;
+  margin-top: 220px;
+  max-height: auto;
+  align-items: center;
+  padding-top: var(--dl-space-space-fiveunits);
+  padding-left: var(--dl-space-space-tripleunit);
+  margin-bottom: 0px;
+  padding-right: var(--dl-space-space-tripleunit);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-fiveunits);
+}
+.lore-background-container {
+  width: 45%;
+  display: flex;
+  align-items: center;
+  margin-bottom: var(--dl-space-space-fiveunits);
+  flex-direction: column;
+  justify-content: center;
+  background-color: #252525;
+}
+.lore-background-text {
+  color: #ffffff;
+  font-size: 40px;
+  font-style: normal;
+  font-family: Overpass;
+  font-weight: 700;
+  line-height: 1.55;
+  text-transform: none;
+  text-decoration: none;
+}
+.lore-text-and-image-container {
+  gap: 0;
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  border-radius: var(--dl-radius-radius-radius2);
+  flex-direction: row;
+  justify-content: center;
+  background-color: #080808;
+}
+.lore-text-container {
+  flex: 1;
+  width: auto;
+  height: auto;
+  display: flex;
+  padding: var(--dl-space-space-tripleunit);
+  align-self: center;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+.lore-text001 {
+  fill: var(--dl-color-gray-white);
+  color: var(--dl-color-gray-white);
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  min-width: auto;
+  align-self: center;
+  font-style: normal;
+  max-height: 100%;
+  font-family: "Overpass";
+  font-weight: 500;
+}
+.lore-andrew-johnson-elementary-school-picture {
+  width: auto;
+  height: auto;
+}
+.lore-section-separator {
+  width: 100%;
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  height: 1px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  background-color: var(--dl-color-gray-500);
+}
+.lore-about-me {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding-top: var(--dl-space-space-tenunits);
+  padding-left: var(--dl-space-space-tripleunit);
+  padding-right: var(--dl-space-space-tripleunit);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-tenunits);
+  justify-content: center;
+}
+.lore-about-me-heading-container {
+  width: 45%;
+  display: flex;
+  align-items: center;
+  border-radius: 25px;
+  margin-bottom: var(--dl-space-space-fiveunits);
+  flex-direction: column;
+  background-color: #252525;
+}
+.lore-about-me-heading {
+  fill: var(--dl-color-gray-white);
+  color: var(--dl-color-gray-white);
+  text-align: center;
+  font-family: "Overpass";
+}
+.lore-top-row-container {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.lore-race-container {
+  flex: 1;
+  width: auto;
+  height: 100%;
+  display: flex;
+  box-shadow: 0px 0px 10px 0px #757575;
+  align-items: center;
+  border-color: #757575;
+  border-width: 1px;
+  flex-direction: column;
+  justify-content: center;
+}
+.lore-text010 {
+  fill: var(--dl-color-gray-white);
+  color: var(--dl-color-gray-white);
+  font-size: 40px;
+  font-style: normal;
+  font-family: "Overpass";
+  font-weight: 700;
+}
+.lore-text011 {
+  fill: var(--dl-color-gray-white);
+  color: var(--dl-color-gray-white);
+  font-family: "Overpass";
+}
+.lore-gender-container {
+  flex: 1;
+  width: auto;
+  height: 100%;
+  display: flex;
+  box-shadow: 0px 0px 10px 0px #757575;
+  align-items: center;
+  border-color: #757575;
+  border-width: 1px;
+  flex-direction: column;
+  justify-content: center;
+}
+.lore-text012 {
+  fill: var(--dl-color-gray-white);
+  color: var(--dl-color-gray-white);
+  font-size: 40px;
+  align-self: center;
+  font-style: normal;
+  font-family: "Overpass";
+  font-weight: 700;
+}
+.lore-text013 {
+  fill: var(--dl-color-gray-white);
+  color: var(--dl-color-gray-white);
+  align-self: center;
+  font-family: "Overpass";
+}
+.lore-down-there-container {
+  flex: 1;
+  width: auto;
+  height: 100%;
+  display: flex;
+  align-self: center;
+  box-shadow: 0px 0px 10px 0px #757575;
+  align-items: center;
+  border-color: #757575;
+  border-width: 1px;
+  flex-direction: column;
+  justify-content: center;
+}
+.lore-text014 {
+  fill: var(--dl-color-gray-white);
+  color: var(--dl-color-gray-white);
+  font-size: 40px;
+  font-style: normal;
+  font-family: "Overpass";
+  font-weight: 700;
+}
+.lore-text015 {
+  fill: var(--dl-color-gray-white);
+  color: var(--dl-color-gray-white);
+  font-family: "Overpass";
+}
+.lore-bottom-row-container {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.lore-myers-briggs-personality {
+  flex: 1;
+  width: auto;
+  height: 100%;
+  display: flex;
+  box-shadow: 0px 0px 10px 0px #757575;
+  align-items: center;
+  border-color: #757575;
+  border-width: 1px;
+  flex-direction: column;
+  justify-content: center;
+}
+.lore-text018 {
+  fill: var(--dl-color-gray-white);
+  color: var(--dl-color-gray-white);
+  font-size: 40px;
+  font-style: normal;
+  text-align: center;
+  font-family: "Overpass";
+  font-weight: 700;
+}
+.lore-text023 {
+  fill: var(--dl-color-gray-white);
+  color: var(--dl-color-gray-white);
+  font-family: "Overpass";
+}
+.lore-ennagram-test-container {
+  flex: 1;
+  width: auto;
+  height: 100%;
+  display: flex;
+  box-shadow: 0px 0px 10px 0px #757575;
+  align-items: center;
+  border-color: #757575;
+  border-width: 1px;
+  flex-direction: column;
+  justify-content: center;
+}
+.lore-heading {
+  fill: var(--dl-color-gray-white);
+  color: var(--dl-color-gray-white);
+  font-size: 40px;
+  align-self: center;
+  font-style: normal;
+  text-align: center;
+  font-family: "Overpass";
+  font-weight: 700;
+}
+.lore-container04 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.lore-text026 {
+  fill: var(--dl-color-gray-white);
+  color: var(--dl-color-gray-white);
+  align-self: center;
+  font-family: "Overpass";
+}
+.lore-alliegance-container {
+  flex: 1;
+  width: auto;
+  height: 100%;
+  display: flex;
+  align-self: center;
+  box-shadow: 0px 0px 10px 0px #757575;
+  align-items: center;
+  border-color: #757575;
+  border-width: 1px;
+  flex-direction: column;
+  justify-content: center;
+}
+.lore-text041 {
+  fill: var(--dl-color-gray-white);
+  color: var(--dl-color-gray-white);
+  font-size: 40px;
+  font-style: normal;
+  font-family: "Overpass";
+  font-weight: 700;
+}
+.lore-text042 {
+  fill: var(--dl-color-gray-white);
+  color: var(--dl-color-gray-white);
+  font-family: "Overpass";
+}
+.lore-section-separator1 {
+  width: 100%;
+  height: 1px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  background-color: var(--dl-color-gray-500);
+}
+.lore-special-section {
+  width: 100%;
+  height: auto;
+  display: flex;
+  max-width: 100%;
+  min-width: auto;
+  max-height: auto;
+  align-items: center;
+  padding-top: var(--dl-space-space-fiveunits);
+  padding-left: var(--dl-space-space-tripleunit);
+  margin-bottom: var(--dl-space-space-fiveunits);
+  padding-right: var(--dl-space-space-tripleunit);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-fiveunits);
+}
+.lore-special-container {
+  width: 45%;
+  display: flex;
+  align-items: center;
+  border-radius: 25px;
+  margin-bottom: var(--dl-space-space-fiveunits);
+  flex-direction: column;
+  background-color: #252525;
+}
+.lore-special-heading {
+  fill: var(--dl-color-gray-white);
+  color: var(--dl-color-gray-white);
+  margin-bottom: 0px;
+}
+.lore-text-and-video-container {
+  gap: 0;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-self: stretch;
+  align-items: center;
+  border-radius: 2px;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #080808;
+}
+.lore-text-container01 {
+  gap: 0;
+  width: auto;
+  height: auto;
+  display: flex;
+  padding: var(--dl-space-space-tripleunit);
+  align-self: center;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+.lore-text045 {
+  fill: var(--dl-color-gray-white);
+  color: var(--dl-color-gray-white);
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  min-width: auto;
+  align-self: center;
+  max-height: 100%;
+  text-align: right;
+  font-family: "Overpass";
+  font-weight: 500;
+  padding-top: var(--dl-space-space-tripleunit);
+  padding-left: var(--dl-space-space-tripleunit);
+  border-radius: 25px;
+  padding-right: var(--dl-space-space-tripleunit);
+  padding-bottom: var(--dl-space-space-tripleunit);
+  background-color: rgb(37, 37, 37);
+}
+.lore-text046 {
+  font-size: 30px;
+  font-weight: 700;
+}
+.lore-text047 {
+  font-size: 30px;
+  font-weight: 700;
+}
+.lore-text048 {
+  font-size: 30px;
+  font-weight: 700;
+}
+.lore-text049 {
+  font-size: 30px;
+  font-weight: 700;
+}
+.lore-text050 {
+  font-size: 30px;
+  font-weight: 700;
+}
+.lore-text051 {
+  font-size: 30px;
+  font-weight: 700;
+}
+.lore-text052 {
+  font-size: 30px;
+  font-weight: 700;
+}
+.lore-text053 {
+  font-size: 30px;
+  font-weight: 700;
+}
+.lore-text054 {
+  font-size: 30px;
+  font-weight: 700;
+}
+.lore-text055 {
+  font-size: 30px;
+  font-weight: 700;
+}
+.lore-text056 {
+  font-size: 30px;
+  font-weight: 700;
+}
+.lore-text057 {
+  font-size: 30px;
+  font-weight: 700;
+}
+.lore-text058 {
+  font-size: 30px;
+  font-weight: 700;
+}
+.lore-text059 {
+  font-style: normal;
+}
+.lore-container05 {
+  width: 650px;
+  height: 450px;
+  align-self: stretch;
+}
+.lore-container06 {
+  display: contents;
+}
+.lore-what-i-want-to-do-section {
+  width: 100%;
+  height: auto;
+  display: flex;
+  max-width: 100%;
+  min-width: auto;
+  max-height: auto;
+  align-items: center;
+  padding-top: var(--dl-space-space-fiveunits);
+  padding-left: var(--dl-space-space-tripleunit);
+  margin-bottom: var(--dl-space-space-fiveunits);
+  padding-right: var(--dl-space-space-tripleunit);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-fiveunits);
+}
+.lore-what-i-want-to-do-heading {
+  width: 45%;
+  display: flex;
+  align-items: center;
+  border-radius: 25px;
+  margin-bottom: var(--dl-space-space-fiveunits);
+  flex-direction: column;
+  background-color: #252525;
+}
+.lore-text060 {
+  fill: var(--dl-color-gray-white);
+  color: var(--dl-color-gray-white);
+  margin-bottom: 0px;
+}
+.lore-text-and-picture {
+  gap: var(--dl-space-space-tripleunit);
+  flex: 1;
+  width: auto;
+  height: auto;
+  display: flex;
+  padding: var(--dl-space-space-tripleunit);
+  align-self: center;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+.lore-text061 {
+  fill: var(--dl-color-gray-white);
+  color: var(--dl-color-gray-white);
+  width: auto;
+  height: auto;
+  padding: var(--dl-space-space-tripleunit);
+  max-width: 100%;
+  min-width: auto;
+  align-self: center;
+  font-style: normal;
+  max-height: 100%;
+  font-family: "Overpass";
+  font-weight: 500;
+  border-radius: 25px;
+  background-color: rgb(37, 37, 37);
+}
+.lore-my-favorite-section {
+  width: 100%;
+  display: flex;
+  max-width: var(--dl-size-size-maxcontent);
+  align-items: center;
+  padding-top: var(--dl-space-space-fiveunits);
+  padding-left: var(--dl-space-space-tripleunit);
+  padding-right: var(--dl-space-space-tripleunit);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-fiveunits);
+}
+.lore-my-favorite-heading {
+  width: 45%;
+  display: flex;
+  align-items: center;
+  border-radius: 25px;
+  margin-bottom: var(--dl-space-space-fiveunits);
+  flex-direction: column;
+  background-color: #252525;
+}
+.lore-text070 {
+  fill: var(--dl-color-gray-white);
+  color: var(--dl-color-gray-white);
+  text-align: center;
+  font-family: "Overpass";
+}
+.lore-top-row-container1 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  padding: var(--dl-space-space-unit);
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+.lore-video-games {
+  flex: 1;
+  width: auto;
+  display: flex;
+  align-self: stretch;
+  box-shadow: 0px 0px 10px 0px #757575;
+  align-items: center;
+  border-color: #757575;
+  border-width: 1px;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.lore-text071 {
+  fill: var(--dl-color-gray-white);
+  color: var(--dl-color-gray-white);
+  font-size: 40px;
+  font-style: normal;
+  margin-top: var(--dl-space-space-doubleunit);
+  font-family: "Overpass";
+  font-weight: 700;
+}
+.lore-container07 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.lore-container08 {
+  gap: var(--dl-space-space-unit);
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  padding-top: var(--dl-space-space-doubleunit);
+  padding-left: var(--dl-space-space-fiveunits);
+  padding-right: var(--dl-space-space-fiveunits);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-doubleunit);
+}
+.lore-container09 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+}
+.lore-text072 {
+  fill: var(--dl-color-gray-white);
+  color: var(--dl-color-gray-white);
+  width: 100%;
+  font-family: "Overpass";
+}
+.lore-container10 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+}
+.lore-text075 {
+  fill: var(--dl-color-gray-white);
+  color: var(--dl-color-gray-white);
+  width: 100%;
+  font-family: "Overpass";
+}
+.lore-container11 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+}
+.lore-text078 {
+  fill: var(--dl-color-gray-white);
+  color: var(--dl-color-gray-white);
+  width: 100%;
+  font-family: "Overpass";
+}
+.lore-container12 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+}
+.lore-text081 {
+  fill: var(--dl-color-gray-white);
+  color: var(--dl-color-gray-white);
+  width: 100%;
+  font-family: "Overpass";
+}
+.lore-container13 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+}
+.lore-text084 {
+  fill: var(--dl-color-gray-white);
+  color: var(--dl-color-gray-white);
+  width: 100%;
+  font-family: "Overpass";
+}
+.lore-animes {
+  flex: 1;
+  width: auto;
+  display: flex;
+  align-self: stretch;
+  box-shadow: 0px 0px 10px 0px #757575;
+  align-items: center;
+  border-color: #757575;
+  border-width: 1px;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.lore-text087 {
+  fill: var(--dl-color-gray-white);
+  color: var(--dl-color-gray-white);
+  font-size: 40px;
+  align-self: center;
+  font-style: normal;
+  margin-top: var(--dl-space-space-doubleunit);
+  font-family: "Overpass";
+  font-weight: 700;
+}
+.lore-container14 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.lore-container15 {
+  gap: var(--dl-space-space-unit);
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  padding-top: var(--dl-space-space-doubleunit);
+  padding-left: var(--dl-space-space-fiveunits);
+  padding-right: var(--dl-space-space-fiveunits);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-doubleunit);
+}
+.lore-container16 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+}
+.lore-text088 {
+  fill: var(--dl-color-gray-white);
+  color: var(--dl-color-gray-white);
+  width: 100%;
+  font-family: "Overpass";
+}
+.lore-container17 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+}
+.lore-text091 {
+  fill: var(--dl-color-gray-white);
+  color: var(--dl-color-gray-white);
+  width: 100%;
+  font-family: "Overpass";
+}
+.lore-container18 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+}
+.lore-text094 {
+  fill: var(--dl-color-gray-white);
+  color: var(--dl-color-gray-white);
+  width: 100%;
+  font-family: "Overpass";
+}
+.lore-container19 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+}
+.lore-text097 {
+  fill: var(--dl-color-gray-white);
+  color: var(--dl-color-gray-white);
+  width: 100%;
+  font-family: "Overpass";
+}
+.lore-container20 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+}
+.lore-text100 {
+  fill: var(--dl-color-gray-white);
+  color: var(--dl-color-gray-white);
+  width: 100%;
+  font-family: "Overpass";
+}
+.lore-stories-and-plotlines {
+  flex: 1;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-self: stretch;
+  box-shadow: 0px 0px 10px 0px #757575;
+  align-items: center;
+  border-color: #757575;
+  border-width: 1px;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.lore-section-header {
+  fill: var(--dl-color-gray-white);
+  color: var(--dl-color-gray-white);
+  font-size: 40px;
+  font-style: normal;
+  margin-top: var(--dl-space-space-doubleunit);
+  font-family: "Overpass";
+  font-weight: 700;
+}
+.lore-container21 {
+  gap: var(--dl-space-space-unit);
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  padding-top: var(--dl-space-space-doubleunit);
+  padding-left: var(--dl-space-space-fiveunits);
+  padding-right: var(--dl-space-space-fiveunits);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-doubleunit);
+}
+.lore-container22 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+}
+.lore-text103 {
+  fill: var(--dl-color-gray-white);
+  color: var(--dl-color-gray-white);
+  width: 100%;
+  font-family: "Overpass";
+}
+.lore-container23 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+}
+.lore-text106 {
+  fill: var(--dl-color-gray-white);
+  color: var(--dl-color-gray-white);
+  width: 100%;
+  font-family: "Overpass";
+}
+.lore-container24 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+}
+.lore-text109 {
+  fill: var(--dl-color-gray-white);
+  color: var(--dl-color-gray-white);
+  width: 100%;
+  font-family: "Overpass";
+}
+.lore-container25 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+}
+.lore-text112 {
+  fill: var(--dl-color-gray-white);
+  color: var(--dl-color-gray-white);
+  width: 100%;
+  font-family: "Overpass";
+}
+.lore-container26 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+}
+.lore-text115 {
+  fill: var(--dl-color-gray-white);
+  color: var(--dl-color-gray-white);
+  width: 100%;
+  font-family: "Overpass";
+}
+.lore-bottom-row-container1 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  padding: var(--dl-space-space-unit);
+  align-items: center;
+  justify-content: flex-start;
+}
+.lore-soundtracks {
+  flex: 1;
+  width: auto;
+  display: flex;
+  align-self: stretch;
+  box-shadow: 0px 0px 10px 0px #757575;
+  align-items: center;
+  border-color: #757575;
+  border-width: 1px;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.lore-soundtracks-heading {
+  fill: var(--dl-color-gray-white);
+  color: var(--dl-color-gray-white);
+  font-size: 40px;
+  font-style: normal;
+  margin-top: var(--dl-space-space-doubleunit);
+  text-align: center;
+  font-family: "Overpass";
+  font-weight: 700;
+}
+.lore-container27 {
+  gap: var(--dl-space-space-unit);
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  padding-top: var(--dl-space-space-doubleunit);
+  padding-left: var(--dl-space-space-fiveunits);
+  padding-right: var(--dl-space-space-fiveunits);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-doubleunit);
+}
+.lore-container28 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+}
+.lore-text120 {
+  fill: var(--dl-color-gray-white);
+  color: var(--dl-color-gray-white);
+  width: 100%;
+  font-family: "Overpass";
+}
+.lore-container29 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+}
+.lore-text123 {
+  fill: var(--dl-color-gray-white);
+  color: var(--dl-color-gray-white);
+  width: 100%;
+  font-family: "Overpass";
+}
+.lore-container30 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+}
+.lore-text126 {
+  fill: var(--dl-color-gray-white);
+  color: var(--dl-color-gray-white);
+  width: 100%;
+  font-family: "Overpass";
+}
+.lore-container31 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+}
+.lore-text127 {
+  fill: var(--dl-color-gray-white);
+  color: var(--dl-color-gray-white);
+  width: 100%;
+  font-family: "Overpass";
+}
+.lore-container32 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+}
+.lore-text130 {
+  fill: var(--dl-color-gray-white);
+  color: var(--dl-color-gray-white);
+  width: 100%;
+  font-family: "Overpass";
+}
+.lore-songs {
+  flex: 1;
+  width: auto;
+  display: flex;
+  align-self: stretch;
+  box-shadow: 0px 0px 10px 0px #757575;
+  align-items: center;
+  border-color: #757575;
+  border-width: 1px;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.lore-songs-header {
+  fill: var(--dl-color-gray-white);
+  color: var(--dl-color-gray-white);
+  font-size: 40px;
+  align-self: center;
+  font-style: normal;
+  margin-top: var(--dl-space-space-doubleunit);
+  text-align: center;
+  font-family: "Overpass";
+  font-weight: 700;
+}
+.lore-container33 {
+  gap: var(--dl-space-space-unit);
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  padding-top: var(--dl-space-space-doubleunit);
+  padding-left: var(--dl-space-space-fiveunits);
+  padding-right: var(--dl-space-space-fiveunits);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-doubleunit);
+}
+.lore-container34 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+}
+.lore-text133 {
+  fill: var(--dl-color-gray-white);
+  color: var(--dl-color-gray-white);
+  width: 100%;
+  font-family: "Overpass";
+}
+.lore-container35 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+}
+.lore-text134 {
+  fill: var(--dl-color-gray-white);
+  color: var(--dl-color-gray-white);
+  width: 100%;
+  font-family: "Overpass";
+}
+.lore-container36 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+}
+.lore-text135 {
+  fill: var(--dl-color-gray-white);
+  color: var(--dl-color-gray-white);
+  width: 100%;
+  font-family: "Overpass";
+}
+.lore-container37 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+}
+.lore-text136 {
+  fill: var(--dl-color-gray-white);
+  color: var(--dl-color-gray-white);
+  width: 100%;
+  font-family: "Overpass";
+}
+.lore-container38 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+}
+.lore-text137 {
+  fill: var(--dl-color-gray-white);
+  color: var(--dl-color-gray-white);
+  width: 100%;
+  font-family: "Overpass";
+}
+.lore-characters {
+  flex: 1;
+  width: auto;
+  display: flex;
+  align-self: stretch;
+  box-shadow: 0px 0px 10px 0px #757575;
+  align-items: center;
+  border-color: #757575;
+  border-width: 1px;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.lore-text138 {
+  fill: var(--dl-color-gray-white);
+  color: var(--dl-color-gray-white);
+  font-size: 40px;
+  font-style: normal;
+  margin-top: var(--dl-space-space-doubleunit);
+  font-family: "Overpass";
+  font-weight: 700;
+}
+.lore-container39 {
+  gap: var(--dl-space-space-unit);
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  padding-top: var(--dl-space-space-doubleunit);
+  padding-left: var(--dl-space-space-fiveunits);
+  padding-right: var(--dl-space-space-fiveunits);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-doubleunit);
+}
+.lore-container40 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+}
+.lore-text139 {
+  fill: var(--dl-color-gray-white);
+  color: var(--dl-color-gray-white);
+  width: 100%;
+  font-family: "Overpass";
+}
+.lore-container41 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+}
+.lore-text140 {
+  fill: var(--dl-color-gray-white);
+  color: var(--dl-color-gray-white);
+  width: 100%;
+  font-family: "Overpass";
+}
+.lore-container42 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+}
+.lore-text141 {
+  fill: var(--dl-color-gray-white);
+  color: var(--dl-color-gray-white);
+  width: 100%;
+  font-family: "Overpass";
+}
+.lore-container43 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+}
+.lore-text142 {
+  fill: var(--dl-color-gray-white);
+  color: var(--dl-color-gray-white);
+  width: 100%;
+  font-family: "Overpass";
+}
+.lore-container44 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+}
+.lore-text143 {
+  fill: var(--dl-color-gray-white);
+  color: var(--dl-color-gray-white);
+  width: 100%;
+  font-family: "Overpass";
+}
+.lore-childhood-section {
+  gap: var(--dl-space-space-fiveunits);
+  width: 100%;
+  display: flex;
+  max-width: var(--dl-size-size-maxcontent);
+  margin-top: var(--dl-space-space-fiveunits);
+  align-items: center;
+  padding-top: var(--dl-space-space-fiveunits);
+  padding-left: var(--dl-space-space-tripleunit);
+  margin-bottom: var(--dl-space-space-fiveunits);
+  padding-right: var(--dl-space-space-tripleunit);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-fiveunits);
+}
+.lore-childhood-heading {
+  width: 45%;
+  display: flex;
+  align-items: center;
+  padding-left: var(--dl-space-space-tripleunit);
+  border-radius: 25px;
+  padding-right: var(--dl-space-space-tripleunit);
+  flex-direction: column;
+  background-color: #252525;
+}
+.lore-text144 {
+  fill: var(--dl-color-gray-white);
+  color: var(--dl-color-gray-white);
+  margin-bottom: 0px;
+}
+.lore-childhood-description {
+  fill: var(--dl-color-gray-white);
+  color: var(--dl-color-gray-white);
+  width: 75%;
+  font-size: 20px;
+  font-style: normal;
+  font-family: "Overpass";
+  font-weight: 400;
+  padding-top: var(--dl-space-space-unit);
+  padding-left: var(--dl-space-space-tripleunit);
+  border-radius: 25px;
+  padding-right: var(--dl-space-space-tripleunit);
+  padding-bottom: var(--dl-space-space-unit);
+  background-color: rgb(32, 32, 32);
+}
+.lore-link05 {
+  text-decoration: underline;
+}
+.lore-games-list {
+  gap: var(--dl-space-space-fiveunits);
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.lore-the-last-stand-dead-zone {
+  gap: var(--dl-space-space-doubleunit);
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  opacity: 0.6;
+  align-items: center;
+  padding-top: var(--dl-space-space-tripleunit);
+  padding-left: var(--dl-space-space-fiveunits);
+  padding-right: var(--dl-space-space-fiveunits);
+  padding-bottom: var(--dl-space-space-tripleunit);
+  justify-content: center;
+}
+.lore-container45 {
+  flex: 1;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.lore-container46 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.lore-text-container02 {
+  flex: 1;
+  width: 100%;
+  height: auto;
+  display: flex;
+  padding: var(--dl-space-space-tripleunit);
+  align-self: center;
+  align-items: center;
+  border-radius: 25px;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #252525;
+}
+.lore-text151 {
+  fill: var(--dl-color-gray-white);
+  color: var(--dl-color-gray-white);
+  font-size: 30px;
+  font-style: normal;
+  font-family: "Overpass";
+  font-weight: 400;
+}
+.lore-text-container03 {
+  flex: 1;
+  width: auto;
+  height: auto;
+  display: flex;
+  padding: var(--dl-space-space-tripleunit);
+  align-self: center;
+  align-items: center;
+  border-radius: 25px;
+  flex-direction: row;
+  padding-bottom: 24px;
+  justify-content: center;
+  background-color: #252525;
+}
+.lore-text152 {
+  fill: var(--dl-color-gray-white);
+  color: var(--dl-color-gray-white);
+  font-size: 16px;
+  font-style: normal;
+  text-align: center;
+  font-family: "Overpass";
+  font-weight: 400;
+}
+.lore-pasted-image {
+  width: 620px;
+  height: 330px;
+}
+.lore-raze-2 {
+  gap: var(--dl-space-space-doubleunit);
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding-top: var(--dl-space-space-tripleunit);
+  padding-left: var(--dl-space-space-fiveunits);
+  padding-right: var(--dl-space-space-fiveunits);
+  padding-bottom: var(--dl-space-space-tripleunit);
+  justify-content: center;
+}
+.lore-container47 {
+  flex: 1;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.lore-container48 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.lore-text-container04 {
+  flex: 1;
+  width: 100%;
+  height: auto;
+  display: flex;
+  padding: var(--dl-space-space-tripleunit);
+  align-self: center;
+  align-items: center;
+  border-radius: 25px;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #252525;
+}
+.lore-text153 {
+  fill: var(--dl-color-gray-white);
+  color: var(--dl-color-gray-white);
+  font-size: 30px;
+  font-style: normal;
+  font-family: "Overpass";
+  font-weight: 400;
+}
+.lore-text-container05 {
+  flex: 1;
+  width: auto;
+  height: auto;
+  display: flex;
+  padding: var(--dl-space-space-tripleunit);
+  align-self: center;
+  align-items: center;
+  border-radius: 25px;
+  flex-direction: row;
+  padding-bottom: 24px;
+  justify-content: center;
+  background-color: #252525;
+}
+.lore-text154 {
+  fill: var(--dl-color-gray-white);
+  color: var(--dl-color-gray-white);
+  font-size: 16px;
+  font-style: normal;
+  text-align: center;
+  font-family: "Overpass";
+  font-weight: 400;
+}
+.lore-raze-2-image {
+  width: 620px;
+  height: 330px;
+}
+.lore-warfare-1917 {
+  gap: var(--dl-space-space-doubleunit);
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding-top: var(--dl-space-space-tripleunit);
+  padding-left: var(--dl-space-space-fiveunits);
+  padding-right: var(--dl-space-space-fiveunits);
+  padding-bottom: var(--dl-space-space-tripleunit);
+  justify-content: center;
+}
+.lore-container49 {
+  flex: 1;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.lore-container50 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.lore-text-container06 {
+  flex: 1;
+  width: 100%;
+  height: auto;
+  display: flex;
+  padding: var(--dl-space-space-tripleunit);
+  align-self: center;
+  align-items: center;
+  border-radius: 25px;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #252525;
+}
+.lore-text155 {
+  fill: var(--dl-color-gray-white);
+  color: var(--dl-color-gray-white);
+  font-size: 30px;
+  font-style: normal;
+  font-family: "Overpass";
+  font-weight: 400;
+}
+.lore-text-container07 {
+  flex: 1;
+  width: auto;
+  height: auto;
+  display: flex;
+  padding: var(--dl-space-space-tripleunit);
+  align-self: center;
+  align-items: center;
+  border-radius: 25px;
+  flex-direction: row;
+  padding-bottom: 24px;
+  justify-content: center;
+  background-color: #252525;
+}
+.lore-text156 {
+  fill: var(--dl-color-gray-white);
+  color: var(--dl-color-gray-white);
+  font-size: 16px;
+  font-style: normal;
+  text-align: center;
+  font-family: "Overpass";
+  font-weight: 400;
+}
+.lore-warfare-1917-image {
+  width: 620px;
+  height: 330px;
+}
+.lore-sonny-1 {
+  gap: var(--dl-space-space-doubleunit);
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding-top: var(--dl-space-space-tripleunit);
+  padding-left: var(--dl-space-space-fiveunits);
+  padding-right: var(--dl-space-space-fiveunits);
+  padding-bottom: var(--dl-space-space-tripleunit);
+  justify-content: center;
+}
+.lore-container51 {
+  flex: 1;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.lore-container52 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.lore-text-container08 {
+  flex: 1;
+  width: 100%;
+  height: auto;
+  display: flex;
+  padding: var(--dl-space-space-tripleunit);
+  align-self: center;
+  align-items: center;
+  border-radius: 25px;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #252525;
+}
+.lore-text157 {
+  fill: var(--dl-color-gray-white);
+  color: var(--dl-color-gray-white);
+  font-size: 30px;
+  font-style: normal;
+  font-family: "Overpass";
+  font-weight: 400;
+}
+.lore-text-container09 {
+  flex: 1;
+  width: auto;
+  height: auto;
+  display: flex;
+  padding: var(--dl-space-space-tripleunit);
+  align-self: center;
+  align-items: center;
+  border-radius: 25px;
+  flex-direction: row;
+  padding-bottom: 24px;
+  justify-content: center;
+  background-color: #252525;
+}
+.lore-text158 {
+  fill: var(--dl-color-gray-white);
+  color: var(--dl-color-gray-white);
+  font-size: 16px;
+  font-style: normal;
+  text-align: center;
+  font-family: "Overpass";
+  font-weight: 400;
+}
+.lore-sonny-1-image {
+  width: 620px;
+  height: 330px;
+}
+.lore-storm-winds-15 {
+  gap: var(--dl-space-space-doubleunit);
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding-top: var(--dl-space-space-tripleunit);
+  padding-left: var(--dl-space-space-fiveunits);
+  padding-right: var(--dl-space-space-fiveunits);
+  padding-bottom: var(--dl-space-space-tripleunit);
+  justify-content: center;
+}
+.lore-container53 {
+  flex: 1;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.lore-container54 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.lore-text-container10 {
+  flex: 1;
+  width: 100%;
+  height: auto;
+  display: flex;
+  padding: var(--dl-space-space-tripleunit);
+  align-self: center;
+  align-items: center;
+  border-radius: 25px;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #252525;
+}
+.lore-text159 {
+  fill: var(--dl-color-gray-white);
+  color: var(--dl-color-gray-white);
+  font-size: 30px;
+  font-style: normal;
+  font-family: "Overpass";
+  font-weight: 400;
+}
+.lore-text-container11 {
+  flex: 1;
+  width: auto;
+  height: auto;
+  display: flex;
+  padding: var(--dl-space-space-tripleunit);
+  align-self: center;
+  align-items: center;
+  border-radius: 25px;
+  flex-direction: row;
+  padding-bottom: 24px;
+  justify-content: center;
+  background-color: #252525;
+}
+.lore-text160 {
+  fill: var(--dl-color-gray-white);
+  color: var(--dl-color-gray-white);
+  font-size: 16px;
+  font-style: normal;
+  text-align: center;
+  font-family: "Overpass";
+  font-weight: 400;
+}
+.lore-pasted-image1 {
+  width: 620px;
+  height: 330px;
+}
+.lore-footer-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.lore-footer {
+  width: 100%;
+  display: flex;
+  max-width: var(--dl-size-size-maxcontent);
+  align-items: center;
+  padding-top: var(--dl-space-space-tripleunit);
+  padding-left: var(--dl-space-space-tripleunit);
+  padding-right: var(--dl-space-space-tripleunit);
+  flex-direction: row;
+  padding-bottom: var(--dl-space-space-tripleunit);
+  justify-content: space-between;
+}
+.lore-social-links1 {
+  gap: var(--dl-space-space-doubleunit);
+  display: flex;
+  align-items: center;
+  padding-top: var(--dl-space-space-unit);
+  padding-left: var(--dl-space-space-doubleunit);
+  border-radius: 25px;
+  padding-right: var(--dl-space-space-doubleunit);
+  flex-direction: row;
+  padding-bottom: var(--dl-space-space-unit);
+  justify-content: center;
+  background-color: #D9D9D9;
+}
+.lore-container55 {
+  gap: var(--dl-space-space-doubleunit);
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+.lore-link06 {
+  display: contents;
+}
+.lore-art-station-image1 {
+  width: 24px;
+  height: 24px;
+  object-fit: cover;
+  transition: 0.3s;
+  margin-right: 0px;
+  text-decoration: none;
+}
+.lore-art-station-image1:hover {
+  width: 40px;
+  height: 40px;
+  padding: 0px;
+  border-color: var(--dl-color-gray-black);
+  border-width: 1px;
+  border-radius: var(--dl-radius-radius-round);
+}
+.lore-link07 {
+  display: contents;
+}
+.lore-github-image1 {
+  width: 24px;
+  height: 24px;
+  object-fit: cover;
+  transition: 0.3s;
+  margin-right: 0px;
+  text-decoration: none;
+}
+.lore-github-image1:hover {
+  width: 40px;
+  height: 40px;
+  border-color: var(--dl-color-gray-black);
+  border-width: 1px;
+  border-radius: var(--dl-radius-radius-round);
+}
+.lore-container56 {
+  gap: var(--dl-space-space-doubleunit);
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+.lore-link08 {
+  display: contents;
+}
+.lore-itch-io-image1 {
+  width: 24px;
+  height: 24px;
+  object-fit: cover;
+  transition: 0.3s;
+  margin-right: 0px;
+  text-decoration: none;
+}
+.lore-itch-io-image1:hover {
+  width: 40px;
+  height: 40px;
+  padding: 0px;
+  border-color: var(--dl-color-gray-black);
+  border-width: 1px;
+  border-radius: var(--dl-radius-radius-round);
+}
+.lore-link09 {
+  display: contents;
+}
+.lore-linkedin-image1 {
+  width: 24px;
+  height: 24px;
+  object-fit: cover;
+  transition: 0.3s;
+  margin-right: 0px;
+  text-decoration: none;
+}
+.lore-linkedin-image1:hover {
+  width: 40px;
+  height: 40px;
+  border-color: var(--dl-color-gray-black);
+  border-width: 1px;
+  border-radius: var(--dl-radius-radius-round);
+}
+.lore-copyright-container {
+  display: flex;
+  align-items: center;
+  padding-top: var(--dl-space-space-unit);
+  padding-left: var(--dl-space-space-doubleunit);
+  border-radius: 25px;
+  padding-right: var(--dl-space-space-doubleunit);
+  flex-direction: row;
+  padding-bottom: var(--dl-space-space-unit);
+  background-color: #D9D9D9;
+}
+.lore-icon {
+  width: 24px;
+  height: 24px;
+  margin-right: var(--dl-space-space-doubleunit);
+}
+@media(max-width: 991px) {
+  .lore-andrew-johnson-elementary-school-picture {
+    width: 50%;
+  }
+  .lore-special-heading {
+    text-align: center;
+  }
+  .lore-container05 {
+    align-self: center;
+  }
+  .lore-text060 {
+    text-align: center;
+  }
+  .lore-pasted-image {
+    width: 500px;
+  }
+  .lore-raze-2-image {
+    width: 500px;
+  }
+  .lore-warfare-1917-image {
+    width: 500px;
+  }
+  .lore-sonny-1-image {
+    width: 500px;
+  }
+  .lore-pasted-image1 {
+    width: 500px;
+  }
+  .lore-footer-container {
+    background-color: transparent;
+  }
+}
+@media(max-width: 767px) {
+  .lore-separator {
+    margin-top: 24px;
+    margin-bottom: 24px;
+  }
+  .lore-background-container {
+    width: 100%;
+  }
+  .lore-text-and-image-container {
+    align-items: center;
+    flex-direction: column;
+  }
+  .lore-about-me-heading-container {
+    width: 100%;
+  }
+  .lore-about-me-heading {
+    text-align: center;
+  }
+  .lore-text014 {
+    text-align: center;
+  }
+  .lore-special-container {
+    width: 100%;
+  }
+  .lore-text-and-video-container {
+    align-items: center;
+    flex-direction: column;
+  }
+  .lore-container05 {
+    align-self: center;
+  }
+  .lore-what-i-want-to-do-heading {
+    width: 100%;
+  }
+  .lore-text-and-picture {
+    flex-direction: column;
+  }
+  .lore-my-favorite-heading {
+    width: 100%;
+  }
+  .lore-text070 {
+    text-align: center;
+  }
+  .lore-top-row-container1 {
+    flex-direction: column;
+  }
+  .lore-text071 {
+    text-align: center;
+  }
+  .lore-bottom-row-container1 {
+    flex-direction: column;
+  }
+  .lore-childhood-heading {
+    width: 100%;
+  }
+  .lore-the-last-stand-dead-zone {
+    flex-direction: column;
+  }
+  .lore-pasted-image {
+    width: 620px;
+  }
+  .lore-raze-2 {
+    flex-direction: column;
+  }
+  .lore-raze-2-image {
+    width: 620px;
+  }
+  .lore-warfare-1917 {
+    flex-direction: column;
+  }
+  .lore-warfare-1917-image {
+    width: 620px;
+  }
+  .lore-sonny-1 {
+    flex-direction: column;
+  }
+  .lore-sonny-1-image {
+    width: 620px;
+  }
+  .lore-storm-winds-15 {
+    flex-direction: column;
+  }
+  .lore-pasted-image1 {
+    width: 620px;
+  }
+  .lore-footer-container {
+    background-color: transparent;
+  }
+}
+@media(max-width: 479px) {
+  .lore-container01 {
+    gap: var(--dl-space-space-unit);
+  }
+  .lore-social-links {
+    display: none;
+  }
+  .lore-email-text {
+    font-size: 20px;
+  }
+  .lore-phone-num-text {
+    font-size: 20px;
+  }
+  .lore-separator {
+    margin-top: var(--dl-space-space-unit);
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .lore-navigation-links-container {
+    display: flex;
+  }
+  .lore-text-container {
+    width: auto;
+  }
+  .lore-andrew-johnson-elementary-school-picture {
+    width: 478px;
+    height: 261px;
+  }
+  .lore-about-me-heading {
+    width: auto;
+  }
+  .lore-top-row-container {
+    width: auto;
+    height: auto;
+    align-self: stretch;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .lore-race-container {
+    width: auto;
+    align-self: stretch;
+  }
+  .lore-gender-container {
+    width: auto;
+    align-self: stretch;
+  }
+  .lore-down-there-container {
+    width: auto;
+    align-self: stretch;
+  }
+  .lore-bottom-row-container {
+    height: auto;
+    align-self: stretch;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .lore-myers-briggs-personality {
+    width: auto;
+    align-self: stretch;
+  }
+  .lore-ennagram-test-container {
+    width: auto;
+    align-self: stretch;
+  }
+  .lore-alliegance-container {
+    width: auto;
+    align-self: stretch;
+  }
+  .lore-text-container01 {
+    align-self: center;
+  }
+  .lore-text045 {
+    align-self: center;
+  }
+  .lore-container05 {
+    width: 100%;
+    height: 450px;
+    align-self: center;
+  }
+  .lore-chekhovs-gun-picture {
+    width: 100%;
+    height: 100%;
+  }
+  .lore-my-favorite-section {
+    height: 100%;
+    max-height: auto;
+    min-height: auto;
+  }
+  .lore-top-row-container1 {
+    height: auto;
+    flex-direction: column;
+  }
+  .lore-bottom-row-container1 {
+    height: auto;
+    flex-direction: column;
+  }
+  .lore-text144 {
+    text-align: center;
+  }
+  .lore-childhood-description {
+    width: auto;
+  }
+  .lore-pasted-image {
+    width: 100%;
+    height: 100%;
+  }
+  .lore-raze-2-image {
+    width: 100%;
+    height: 100%;
+  }
+  .lore-warfare-1917-image {
+    width: 100%;
+    height: 100%;
+  }
+  .lore-sonny-1-image {
+    width: 100%;
+    height: 100%;
+  }
+  .lore-pasted-image1 {
+    width: 100%;
+    height: 100%;
+  }
+  .lore-footer-container {
+    background-color: transparent;
+  }
+}

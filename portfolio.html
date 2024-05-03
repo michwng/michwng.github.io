@@ -1,0 +1,672 @@
+<!DOCTYPE html>
+<html lang="en"
+  ><head
+    ><title>Portfolio - Portfolio Page</title
+    ><meta property="og:title" content="Portfolio - Portfolio Page" /><meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0" /><meta
+      charset="utf-8" /><meta
+      property="twitter:card"
+      content="summary_large_image" /><style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }</style
+    ><style data-tag="default-style-sheet">
+      html {
+        font-family: Arial;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.55;
+        color: var(--dl-color-gray-black);
+        background-color: var(--dl-color-gray-white);
+
+        null
+      }</style
+    ><link
+      rel="stylesheet"
+      href="https://unpkg.com/animate.css@4.1.1/animate.css" /><link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap"
+      data-tag="font" /><link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font" /><link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font" /><link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font" /><link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&amp;display=swap"
+      data-tag="font" /><link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font" /><link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font" /><link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font" /><link
+      rel="stylesheet"
+      href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css" /></head
+  ><body
+    ><link rel="stylesheet" href="./style.css" /><div
+      ><link href="./portfolio.css" rel="stylesheet" /><div
+        class="portfolio-container"
+        ><div data-role="Header" class="portfolio-navigation-bar"
+          ><div class="portfolio-container1"
+            ><a href="index.html" class="portfolio-navlink"
+              ><img
+                alt="image"
+                src="public/michael%20ng%20logo-200h.png"
+                class="portfolio-michael-ng-image" /></a
+            ><div class="portfolio-social-links"
+              ><div class="portfolio-container2"
+                ><a
+                  href="https://www.artstation.com/michaelng8"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  class="portfolio-link"
+                  ><img
+                    alt="image"
+                    src="data:image/svg+xml;charset=utf-8;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHdpZHRoPSczNScgaGVpZ2h0PSczMicgZmlsbD0nbm9uZSc+PHBhdGggZmlsbD0nIzEzQUZGMCcgZmlsbC1ydWxlPSdldmVub2RkJyBkPSdNMzUgMjQuMzU0YzAtLjcwNC0uMjA4LTEuMzYtLjU2NS0xLjkxTDIyLjkzNyAyLjUyNUEzLjUzNiAzLjUzNiAwIDAgMCAxOS44MTMuNjUyaC02LjA3N2wxNy43NiAzMC42NjYgMi44LTQuODMzYy41NTMtLjkyNS43MDQtMS4zMzQuNzA0LTIuMTMxWm0tMzUtLjAzNyAyLjk1NiA1LjA5M2guMDAxYTMuNTM2IDMuNTM2IDAgMCAwIDMuMTU3IDEuOTM4aDE5LjYyNGwtNC4wNzItNy4wM0gwWk0xMC44MzIgNS42MjFsNy45MzggMTMuNzAxSDIuODkzbDcuOTM5LTEzLjcwMVonIGNsaXAtcnVsZT0nZXZlbm9kZCcvPjwvc3ZnPg=="
+                    class="portfolio-art-station-image" /></a
+                ><a
+                  href="https://github.com/michwng"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  class="portfolio-link01"
+                  ><img
+                    alt="image"
+                    src="public/external/github%20logo-200h-200h-200h.jpg"
+                    class="portfolio-github-image" /></a></div
+              ><div class="portfolio-container3"
+                ><a
+                  href="https://pyronian-studios.itch.io"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  class="portfolio-link02"
+                  ><img
+                    alt="image"
+                    src="https://static.itch.io/images/itchio-textless-black.svg"
+                    viewbox="0 0 877.7142857142857 1024"
+                    class="portfolio-itch-io-image" /></a
+                ><a
+                  href="https://www.linkedin.com/in/michael-ng-9325321b6/"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  class="portfolio-link03"
+                  ><img
+                    alt="image"
+                    src="public/external/lilogo-200h-200h-200h.png"
+                    class="portfolio-linkedin-image" /></a></div></div
+            ><div class="portfolio-contact-text"
+              ><span class="portfolio-email-text"
+                ><a
+                  href="mailto:mwnmwn07@gmail.com?subject="
+                  class="portfolio-link04"
+                  >mwnmwn07@gmail.com</a
+                ><br /></span
+              ><a href="tel:(423)723-9816" class="portfolio-phone-num-text"
+                >(423)723-9816</a
+              ></div
+            ></div
+          ><div class="portfolio-separator"></div
+          ><nav class="portfolio-navigation-links-container"
+            ><nav
+              class="navigation-links-nav navigation-links-root-class-name15"
+              ><a href="index.html" class="navigation-links-navlink"
+                ><span>Home</span></a
+              ><a href="portfolio.html" class="navigation-links-navlink1"
+                ><span>Portfolio</span></a
+              ><a href="lore.html" class="navigation-links-navlink2"
+                ><span>Lore</span></a
+              ></nav
+            ></nav
+          ></div
+        ><div class="portfolio-c-projects-blog"
+          ><h1 class="portfolio-text01"><span>C# Projects</span><br /></h1
+          ><a
+            href="https://youtu.be/CznwFf5JG78"
+            target="_blank"
+            rel="noreferrer noopener"
+            class="portfolio-link05"
+            ><div class="portfolio-file-io-and-text-manipulation-container"
+              ><div
+                class="blog-post-card3-blog-post-card blog-post-card3-root-class-name1"
+                ><img
+                  alt="image"
+                  src="public/fileio%20demo%20thumbnail-1500w.png"
+                  loading="lazy"
+                  class="blog-post-card3-image"
+                /><div class="blog-post-card3-container"
+                  ><span class="blog-post-card3-text"
+                    ><span>Server Side Web Programming</span></span
+                  ><h1 class="blog-post-card3-text1"
+                    ><span>File IO &amp; Text Manipulation</span></h1
+                  ><div class="blog-post-card3-container1"
+                    ><span class="blog-post-card3-text2"
+                      ><span
+                        >This application can convert CSV files into PSV files,
+                        as well as convert CSV rows into C# objects and
+                        back.</span
+                      ></span
+                    ><span class="blog-post-card3-text3">Read More</span></div
+                  ><span class="blog-post-card3-text4"
+                    ><span>January 9th, 2024</span></span
+                  ></div
+                ></div
+              ></div
+            ></a
+          ><a
+            href="https://youtu.be/JvCJQfTcMF0"
+            target="_blank"
+            rel="noreferrer noopener"
+            class="portfolio-link06"
+            ><div
+              ><div
+                class="blog-post-card3-blog-post-card blog-post-card3-root-class-name2"
+                ><img
+                  alt="image"
+                  src="public/demo%20querybuilder%20thumbnail-1500w.png"
+                  loading="lazy"
+                  class="blog-post-card3-image"
+                /><div class="blog-post-card3-container"
+                  ><span class="blog-post-card3-text"
+                    ><span>Server Side Web Programming</span></span
+                  ><h1 class="blog-post-card3-text1"
+                    ><span>SQL Query Builder with SQLite</span></h1
+                  ><div class="blog-post-card3-container1"
+                    ><span class="blog-post-card3-text2"
+                      ><span
+                        >This application can perform CRRUD operations on a
+                        database using automated SQL queries. This program comes
+                        with a GUI.</span
+                      ></span
+                    ><span class="blog-post-card3-text3">Read More</span></div
+                  ><span class="blog-post-card3-text4"
+                    ><span>January 9th, 2024</span></span
+                  ></div
+                ></div
+              ></div
+            ></a
+          ><a
+            href="https://youtu.be/JvCJQfTcMF0"
+            target="_blank"
+            rel="noreferrer noopener"
+            class="portfolio-link07"
+            ><div
+              ><div
+                class="blog-post-card3-blog-post-card blog-post-card3-root-class-name"
+                ><img
+                  alt="image"
+                  src="public/demo%20json%20postman-1500w.png"
+                  loading="lazy"
+                  class="blog-post-card3-image"
+                /><div class="blog-post-card3-container"
+                  ><span class="blog-post-card3-text"
+                    ><span>Server Side Web Programming</span></span
+                  ><h1 class="blog-post-card3-text1"
+                    ><span>JSON and Postman</span></h1
+                  ><div class="blog-post-card3-container1"
+                    ><span class="blog-post-card3-text2"
+                      ><span
+                        >This project uses Postman to extract data from Google
+                        Books API. This C# program can then convert the JSON
+                        data into C# objects. It can also create/delete book
+                        objects and export created objects to JSON data.</span
+                      ></span
+                    ><span class="blog-post-card3-text3">Read More</span></div
+                  ><span class="blog-post-card3-text4"
+                    ><span>January 9th, 2024</span></span
+                  ></div
+                ></div
+              ></div
+            ></a
+          ></div
+        ><div class="portfolio-java-script-projects"
+          ><h1 class="portfolio-text04"
+            ><span>JavaScript Projects</span><br /></h1
+          ><a
+            href="https://brandonsbarbarragebearingbeer.azurewebsites.net/"
+            target="_blank"
+            rel="noreferrer noopener"
+            class="portfolio-link08"
+            ><div class="portfolio-b5-container"
+              ><div
+                class="blog-post-card3-blog-post-card blog-post-card3-root-class-name4"
+                ><img
+                  alt="image"
+                  src="public/came%20back%20from%20work-1500w.png"
+                  loading="lazy"
+                  class="blog-post-card3-image"
+                /><div class="blog-post-card3-container"
+                  ><span class="blog-post-card3-text"
+                    ><span>ETSU Game Jam SPR 2024</span></span
+                  ><h1 class="blog-post-card3-text1"
+                    ><span>Brandon's Bar Bearing Better Beer</span></h1
+                  ><div class="blog-post-card3-container1"
+                    ><span class="blog-post-card3-text2"
+                      ><span
+                        >A visual novel project created using Microsoft's MVC
+                        Web App. Version 0.5 is published and can be visited by
+                        clicking this Blog Post. Version 0.8 is in development
+                        at the moment. Most art is AI-Generated, but I made a
+                        few assets myself. Am I not an artist?</span
+                      ></span
+                    ><span class="blog-post-card3-text3">Read More</span></div
+                  ><span class="blog-post-card3-text4"
+                    ><span
+                      >Published February 26, 2024. Currently in Further
+                      Development.</span
+                    ></span
+                  ></div
+                ></div
+              ></div
+            ></a
+          ><a
+            href="https://mlgbreakout20240305130417.azurewebsites.net/"
+            target="_blank"
+            rel="noreferrer noopener"
+            class="portfolio-link09"
+            ><div class="portfolio-mlg-breakout-container"
+              ><div
+                class="blog-post-card3-blog-post-card blog-post-card3-root-class-name5"
+                ><img
+                  alt="image"
+                  src="public/mlg%20breakout%20screenshot-1500w.png"
+                  loading="lazy"
+                  class="blog-post-card3-image"
+                /><div class="blog-post-card3-container"
+                  ><span class="blog-post-card3-text"
+                    ><span>ETSU Game Jam SPR 2024</span></span
+                  ><h1 class="blog-post-card3-text1"
+                    ><span>MLG Breakout</span></h1
+                  ><div class="blog-post-card3-container1"
+                    ><span class="blog-post-card3-text2"
+                      ><span
+                        >Experience Breakout like never before! PWN bricks,
+                        score, and experience true MLG gameplay in MLG
+                        Breakout!</span
+                      ></span
+                    ><span class="blog-post-card3-text3">Read More</span></div
+                  ><span class="blog-post-card3-text4"
+                    ><span
+                      >Published March 2023, Updated March 5th, 2024</span
+                    ></span
+                  ></div
+                ></div
+              ></div
+            ></a
+          ></div
+        ><div class="portfolio-unreal-engine-53-projects"
+          ><h1 class="portfolio-text07"
+            ><span>Unreal Engine 5.3 Projects</span><br /></h1
+          ><a
+            href="https://brandonsbarbarragebearingbeer.azurewebsites.net/"
+            target="_blank"
+            rel="noreferrer noopener"
+            class="portfolio-link10"
+            ><div class="portfolio-container4"
+              ><div
+                class="blog-post-card3-blog-post-card blog-post-card3-root-class-name6"
+                ><img
+                  alt="image"
+                  src="public/nukeintown-1500w.jpg"
+                  loading="lazy"
+                  class="blog-post-card3-image"
+                /><div class="blog-post-card3-container"
+                  ><span class="blog-post-card3-text"
+                    ><span>ETSU Game Jam Fall 2023</span></span
+                  ><h1 class="blog-post-card3-text1"><span>24 Hours</span></h1
+                  ><div class="blog-post-card3-container1"
+                    ><span class="blog-post-card3-text2"
+                      ><span
+                        >Experience the consequences of nuclear fallout in 5-10
+                        minutes! You’re a dude in a town that gets targeted for
+                        a nuclear attack. The CIA found out that this town will
+                        be nuked within the next 24 hours, so they have urged
+                        citizens to either evacuate or immediately seek shelter.
+                        But there’s no shelter in your town. So you build one
+                        yourself, on top of a hill. Build yourself a (nuclear)
+                        bomb shelter within 24 hours. Luckily, you live on top
+                        of a hill and have a natural advantage.</span
+                      ></span
+                    ><span class="blog-post-card3-text3">Read More</span></div
+                  ><span class="blog-post-card3-text4"
+                    ><span
+                      >Presented November 27, 2023, Published March 3rd,
+                      2024.</span
+                    ></span
+                  ></div
+                ></div
+              ></div
+            ></a
+          ></div
+        ><div class="portfolio-extra-fun-goodies"
+          ><h1 class="portfolio-text10"><span>Extra Fun Goodies</span><br /></h1
+          ><a
+            href="https://youtu.be/CznwFf5JG78"
+            target="_blank"
+            rel="noreferrer noopener"
+            class="portfolio-link11"
+            ><div class="portfolio-toad-container"
+              ><div
+                class="blog-post-card3-blog-post-card blog-post-card3-root-class-name3"
+                ><img
+                  alt="image"
+                  src="public/very%20professional%20photo-1500w.png"
+                  loading="lazy"
+                  class="blog-post-card3-image"
+                /><div class="blog-post-card3-container"
+                  ><span class="blog-post-card3-text"
+                    ><span>Photopea</span></span
+                  ><h1 class="blog-post-card3-text1"
+                    ><span
+                      >Local Toad Spotted Doing Questionable Acts in the
+                      Mushroom Kingdom</span
+                    ></h1
+                  ><div class="blog-post-card3-container1"
+                    ><span class="blog-post-card3-text2"
+                      ><span
+                        >A very professional SFW image. See "more" at my
+                        Artstation.</span
+                      ></span
+                    ><span class="blog-post-card3-text3">Read More</span></div
+                  ><span class="blog-post-card3-text4"
+                    ><span>September 9th, 2023</span></span
+                  ></div
+                ></div
+              ></div
+            ></a
+          ><a
+            href="https://youtu.be/JvCJQfTcMF0"
+            target="_blank"
+            rel="noreferrer noopener"
+            class="portfolio-link12"
+            ><div
+              ><div
+                class="blog-post-card3-blog-post-card blog-post-card3-root-class-name9"
+                ><img
+                  alt="image"
+                  src="public/senioritispfp-1500w.png"
+                  loading="lazy"
+                  class="blog-post-card3-image"
+                /><div class="blog-post-card3-container"
+                  ><span class="blog-post-card3-text"
+                    ><span>Photopea</span></span
+                  ><h1 class="blog-post-card3-text1"
+                    ><span>Senioritis PFP</span></h1
+                  ><div class="blog-post-card3-container1"
+                    ><span class="blog-post-card3-text2"
+                      ><span
+                        >An accurate picture of me suffering 17 credit hours and
+                        part-time work during my Junior and Senior at ETSU. I
+                        would not wish that on even my worst enemy.</span
+                      ></span
+                    ><span class="blog-post-card3-text3">Read More</span></div
+                  ><span class="blog-post-card3-text4"
+                    ><span>October 26, 2023</span></span
+                  ></div
+                ></div
+              ></div
+            ></a
+          ><a
+            href="https://youtu.be/JvCJQfTcMF0"
+            target="_blank"
+            rel="noreferrer noopener"
+            class="portfolio-link13"
+            ><div
+              ><div
+                class="blog-post-card3-blog-post-card blog-post-card3-root-class-name10"
+                ><img
+                  alt="image"
+                  src="public/githubisscaredofonedrive-1500w.png"
+                  loading="lazy"
+                  class="blog-post-card3-image"
+                /><div class="blog-post-card3-container"
+                  ><span class="blog-post-card3-text"
+                    ><span>Photopea</span></span
+                  ><h1 class="blog-post-card3-text1"
+                    ><span>Github is Scared of Onedrive</span></h1
+                  ><div class="blog-post-card3-container1"
+                    ><span class="blog-post-card3-text2"
+                      ><span>I feel like this is self-explanatory.</span></span
+                    ><span class="blog-post-card3-text3">Read More</span></div
+                  ><span class="blog-post-card3-text4"
+                    ><span>November 28, 2023</span></span
+                  ></div
+                ></div
+              ></div
+            ></a
+          ><a
+            href="https://youtu.be/JvCJQfTcMF0"
+            target="_blank"
+            rel="noreferrer noopener"
+            class="portfolio-link14"
+            ><div class="portfolio-praise-git-hub-container"
+              ><div
+                class="blog-post-card3-blog-post-card blog-post-card3-root-class-name13"
+                ><img
+                  alt="image"
+                  src="public/githubjesus-1500w.png"
+                  loading="lazy"
+                  class="blog-post-card3-image"
+                /><div class="blog-post-card3-container"
+                  ><span class="blog-post-card3-text"
+                    ><span>Photopea</span></span
+                  ><h1 class="blog-post-card3-text1"
+                    ><span>Praise GitHub Desktop</span></h1
+                  ><div class="blog-post-card3-container1"
+                    ><span class="blog-post-card3-text2"
+                      ><span
+                        >Yeah, I use GitHub Desktop. Can you hire me already?
+                        I'll show you how GitHub is Done.</span
+                      ></span
+                    ><span class="blog-post-card3-text3">Read More</span></div
+                  ><span class="blog-post-card3-text4"
+                    ><span>November 28, 2023</span></span
+                  ></div
+                ></div
+              ></div
+            ></a
+          ><a
+            href="https://youtu.be/JvCJQfTcMF0"
+            target="_blank"
+            rel="noreferrer noopener"
+            class="portfolio-link15"
+            ><div
+              ><div
+                class="blog-post-card3-blog-post-card blog-post-card3-root-class-name12"
+                ><img
+                  alt="image"
+                  src="public/githubslander-1500w.png"
+                  loading="lazy"
+                  class="blog-post-card3-image"
+                /><div class="blog-post-card3-container"
+                  ><span class="blog-post-card3-text"
+                    ><span>Photopea</span></span
+                  ><h1 class="blog-post-card3-text1"
+                    ><span>Github Slander</span></h1
+                  ><div class="blog-post-card3-container1"
+                    ><span class="blog-post-card3-text2"
+                      ><span
+                        >Another tribute to GitHub Desktop. I hope you aren't
+                        downloading that ZIP file...</span
+                      ></span
+                    ><span class="blog-post-card3-text3">Read More</span></div
+                  ><span class="blog-post-card3-text4"
+                    ><span>November 28, 2023</span></span
+                  ></div
+                ></div
+              ></div
+            ></a
+          ></div
+        ><div class="portfolio-animations"
+          ><h1 class="portfolio-text13"><span>Animations</span><br /></h1
+          ><div class="portfolio-emily-container"
+            ><div
+              class="blog-post-card3-blog-post-card blog-post-card3-root-class-name14"
+              ><img
+                alt="image"
+                src="public/emilyupscaledblink-1500w.gif"
+                loading="lazy"
+                class="blog-post-card3-image"
+              /><div class="blog-post-card3-container"
+                ><span class="blog-post-card3-text"><span>Photopea</span></span
+                ><h1 class="blog-post-card3-text1"
+                  ><span>Emily (Brandon's Bar...)</span></h1
+                ><div class="blog-post-card3-container1"
+                  ><span class="blog-post-card3-text2"
+                    ><span
+                      >Remember Brandon's Bar Bearing Better Beer? Well, Emily
+                      is a side character for that game. This is the upscaled
+                      version of the blinking animation. Animated pretty
+                      recently!</span
+                    ></span
+                  ><span class="blog-post-card3-text3">Read More</span></div
+                ><span class="blog-post-card3-text4"
+                  ><span>May 1st, 2024</span></span
+                ></div
+              ></div
+            ></div
+          ><div class="portfolio-michael-container"
+            ><div
+              class="blog-post-card3-blog-post-card blog-post-card3-root-class-name16"
+              ><img
+                alt="image"
+                src="public/michaelblinking-1500w.gif"
+                loading="lazy"
+                class="blog-post-card3-image"
+              /><div class="blog-post-card3-container"
+                ><span class="blog-post-card3-text"><span>Photopea</span></span
+                ><h1 class="blog-post-card3-text1"
+                  ><span>Michael (Brandon's Bar...)</span></h1
+                ><div class="blog-post-card3-container1"
+                  ><span class="blog-post-card3-text2"
+                    ><span
+                      >Hey, it's the guy modeled after me! I made him blink in
+                      that cool Visual Novel game, Brandon's Bar Bearing Better
+                      Beer! (Not upscaled, sadly)</span
+                    ></span
+                  ><span class="blog-post-card3-text3">Read More</span></div
+                ><span class="blog-post-card3-text4"
+                  ><span>May 2nd, 2024</span></span
+                ></div
+              ></div
+            ></div
+          ><a
+            href="https://youtu.be/6cLGKoKYJb8"
+            target="_blank"
+            rel="noreferrer noopener"
+            class="portfolio-link16"
+            ><div class="portfolio-alex-container"
+              ><div
+                class="blog-post-card3-blog-post-card blog-post-card3-root-class-name15"
+                ><img
+                  alt="image"
+                  src="public/alex-1500w.png"
+                  loading="lazy"
+                  class="blog-post-card3-image"
+                /><div class="blog-post-card3-container"
+                  ><span class="blog-post-card3-text"
+                    ><span>Photopea</span></span
+                  ><h1 class="blog-post-card3-text1"
+                    ><span>Alex - Unreal Engine 5.3 Walking Animation</span></h1
+                  ><div class="blog-post-card3-container1"
+                    ><span class="blog-post-card3-text2"
+                      ><span
+                        >My child Alex is walking! I made him (and some other
+                        people) using Metahuman Creator 5.2.</span
+                      ></span
+                    ><span class="blog-post-card3-text3">Read More</span></div
+                  ><span class="blog-post-card3-text4"
+                    ><span>October 26, 2023</span></span
+                  ></div
+                ></div
+              ></div
+            ></a
+          ><a
+            href="https://youtu.be/JvCJQfTcMF0"
+            target="_blank"
+            rel="noreferrer noopener"
+            class="portfolio-link17"
+            ><div
+              ><div
+                ><div class="portfolio-container6"
+                  ><iframe
+                    width="1100"
+                    height="550"
+                    src="https://www.youtube.com/embed/aEue4CWCkFE"
+                    title="Fast Food (Michael Rosen YTP)"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin"
+                    allowfullscreen=""
+                  ></iframe></div></div></div></a></div
+        ><div class="portfolio-section-separator"></div
+        ><div class="portfolio-footer"
+          ><div class="portfolio-footer1"
+            ><div class="portfolio-social-links1"
+              ><div class="portfolio-container7"
+                ><a
+                  href="https://www.artstation.com/michaelng8"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  class="portfolio-link18"
+                  ><img
+                    alt="image"
+                    src="data:image/svg+xml;charset=utf-8;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHdpZHRoPSczNScgaGVpZ2h0PSczMicgZmlsbD0nbm9uZSc+PHBhdGggZmlsbD0nIzEzQUZGMCcgZmlsbC1ydWxlPSdldmVub2RkJyBkPSdNMzUgMjQuMzU0YzAtLjcwNC0uMjA4LTEuMzYtLjU2NS0xLjkxTDIyLjkzNyAyLjUyNUEzLjUzNiAzLjUzNiAwIDAgMCAxOS44MTMuNjUyaC02LjA3N2wxNy43NiAzMC42NjYgMi44LTQuODMzYy41NTMtLjkyNS43MDQtMS4zMzQuNzA0LTIuMTMxWm0tMzUtLjAzNyAyLjk1NiA1LjA5M2guMDAxYTMuNTM2IDMuNTM2IDAgMCAwIDMuMTU3IDEuOTM4aDE5LjYyNGwtNC4wNzItNy4wM0gwWk0xMC44MzIgNS42MjFsNy45MzggMTMuNzAxSDIuODkzbDcuOTM5LTEzLjcwMVonIGNsaXAtcnVsZT0nZXZlbm9kZCcvPjwvc3ZnPg=="
+                    class="portfolio-art-station-image1" /></a
+                ><a
+                  href="https://github.com/michwng"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  class="portfolio-link19"
+                  ><img
+                    alt="image"
+                    src="public/external/github%20logo-200h-200h-200h.jpg"
+                    class="portfolio-github-image1" /></a></div
+              ><div class="portfolio-container8"
+                ><a
+                  href="https://pyronian-studios.itch.io"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  class="portfolio-link20"
+                  ><img
+                    alt="image"
+                    src="https://static.itch.io/images/itchio-textless-black.svg"
+                    viewbox="0 0 877.7142857142857 1024"
+                    class="portfolio-itch-io-image1" /></a
+                ><a
+                  href="https://www.linkedin.com/in/michael-ng-9325321b6/"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  class="portfolio-link21"
+                  ><img
+                    alt="image"
+                    src="public/external/lilogo-200h-200h-200h.png"
+                    class="portfolio-linkedin-image1" /></a></div></div
+            ><div class="portfolio-copyright-container"
+              ><svg viewBox="0 0 1024 1024" class="portfolio-icon">
+                <path
+                  d="M512 854q140 0 241-101t101-241-101-241-241-101-241 101-101 241 101 241 241 101zM512 86q176 0 301 125t125 301-125 301-301 125-301-125-125-301 125-301 301-125zM506 390q-80 0-80 116v12q0 116 80 116 30 0 50-17t20-43h76q0 50-44 88-42 36-102 36-80 0-122-48t-42-132v-12q0-82 40-128 48-54 124-54 66 0 104 38 42 42 42 98h-76q0-14-6-26-10-20-14-24-20-20-50-20z"
+                ></path></svg
+              ><span class="Anchor">Copyright Michael Ng, 2024</span></div
+            ></div
+          ></div
+        ></div
+      ></div
+    >
+    <script
+      defer=""
+      src="https://unpkg.com/@teleporthq/teleport-custom-scripts"
+    ></script></body
+></html>

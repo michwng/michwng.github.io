@@ -11,6 +11,7 @@
   font-size: 30px;
   text-align: justify;
   transition: 0.3s;
+  font-family: "Overpass";
   text-decoration: none;
 }
 .navigation-links-navlink:hover {
@@ -33,6 +34,7 @@
   font-size: 30px;
   text-align: justify;
   transition: 0.3s;
+  font-family: "Overpass";
   margin-left: 0px;
   text-decoration: none;
 }
@@ -56,6 +58,7 @@
   font-size: 30px;
   text-align: justify;
   transition: 0.3s;
+  font-family: "Overpass";
   margin-left: 0px;
   text-decoration: none;
 }
@@ -73,6 +76,12 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+
+
+
+
+
 
 
 
@@ -267,15 +276,16 @@
   z-index: 100;
   position: fixed;
   align-items: center;
-  padding-top: 32px;
-  padding-left: 48px;
-  padding-right: 48px;
+  padding-top: var(--dl-space-space-doubleunit);
+  padding-left: var(--dl-space-space-fourunits);
+  padding-right: var(--dl-space-space-fourunits);
   flex-direction: column;
-  padding-bottom: 32px;
+  padding-bottom: 0px;
   justify-content: center;
+  background-color: rgba(0, 0, 0, 0.8);
 }
 .portfolio-container1 {
-  gap: var(--dl-space-space-tenunits);
+  gap: var(--dl-space-space-tripleunit);
   flex: 0 0 auto;
   width: 100%;
   height: auto;
@@ -289,9 +299,62 @@
   display: contents;
 }
 .portfolio-michael-ng-image {
-  width: 33%;
+  width: 20%;
   object-fit: cover;
   text-decoration: none;
+}
+.portfolio-contact-text {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.portfolio-email-text {
+  color: var(--dl-color-gray-white);
+  font-size: 15px;
+  text-align: center;
+  transition: 0.3s;
+  font-family: "Overpass";
+  line-height: 1.65;
+}
+.portfolio-email-text:hover {
+  background: repeating-linear-gradient(-45deg, red 0%, yellow 7.14%, lime, 21.4%, cyan 28.56%, blue 35.7%, magenta 42.84%, red 50%);
+  padding-top: var(--dl-space-space-unit);
+  border-color: var(--dl-color-gray-white);
+  border-width: 2px;
+  padding-left: var(--dl-space-space-doubleunit);
+  border-radius: 25px;
+  padding-right: var(--dl-space-space-doubleunit);
+  padding-bottom: var(--dl-space-space-unit);
+  background-color: #464646;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.portfolio-link {
+  text-decoration: underline;
+}
+.portfolio-phone-num-text {
+  color: var(--dl-color-gray-white);
+  text-align: center;
+  transition: 0.3s;
+  font-family: "Overpass";
+  line-height: 1.65;
+}
+.portfolio-phone-num-text:hover {
+  background: repeating-linear-gradient(-45deg, red 0%, yellow 7.14%, lime, 21.4%, cyan 28.56%, blue 35.7%, magenta 42.84%, red 50%);
+  padding-top: var(--dl-space-space-unit);
+  border-color: var(--dl-color-gray-white);
+  border-width: 2px;
+  padding-left: var(--dl-space-space-doubleunit);
+  border-radius: 25px;
+  padding-right: var(--dl-space-space-doubleunit);
+  padding-bottom: var(--dl-space-space-unit);
+  background-color: #464646;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .portfolio-social-links {
   gap: var(--dl-space-space-doubleunit);
@@ -301,7 +364,7 @@
   padding-left: var(--dl-space-space-doubleunit);
   border-radius: 25px;
   padding-right: var(--dl-space-space-doubleunit);
-  flex-direction: column;
+  flex-direction: row;
   padding-bottom: var(--dl-space-space-unit);
   justify-content: center;
   background-color: var(--dl-color-gray-500);
@@ -316,7 +379,7 @@
   flex-direction: row;
   justify-content: center;
 }
-.portfolio-link {
+.portfolio-link01 {
   display: contents;
 }
 .portfolio-art-station-image {
@@ -335,7 +398,7 @@
   border-width: 1px;
   border-radius: var(--dl-radius-radius-round);
 }
-.portfolio-link01 {
+.portfolio-link02 {
   display: contents;
 }
 .portfolio-github-image {
@@ -363,7 +426,7 @@
   flex-direction: row;
   justify-content: center;
 }
-.portfolio-link02 {
+.portfolio-link03 {
   display: contents;
 }
 .portfolio-itch-io-image {
@@ -382,7 +445,7 @@
   border-width: 1px;
   border-radius: var(--dl-radius-radius-round);
 }
-.portfolio-link03 {
+.portfolio-link04 {
   display: contents;
 }
 .portfolio-linkedin-image {
@@ -399,61 +462,6 @@
   border-color: var(--dl-color-gray-black);
   border-width: 1px;
   border-radius: var(--dl-radius-radius-round);
-}
-.portfolio-contact-text {
-  flex: 0 0 auto;
-  width: auto;
-  height: auto;
-  display: flex;
-  align-items: center;
-  margin-right: 0px;
-  flex-direction: column;
-  justify-content: center;
-}
-.portfolio-email-text {
-  color: var(--dl-color-gray-white);
-  font-size: 25px;
-  text-align: center;
-  transition: 0.3s;
-  font-family: "Overpass";
-  line-height: 1.65;
-}
-.portfolio-email-text:hover {
-  background: repeating-linear-gradient(-45deg, red 0%, yellow 7.14%, lime, 21.4%, cyan 28.56%, blue 35.7%, magenta 42.84%, red 50%);
-  padding-top: var(--dl-space-space-unit);
-  border-color: var(--dl-color-gray-white);
-  border-width: 2px;
-  padding-left: var(--dl-space-space-doubleunit);
-  border-radius: 25px;
-  padding-right: var(--dl-space-space-doubleunit);
-  padding-bottom: var(--dl-space-space-unit);
-  background-color: #464646;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.portfolio-link04 {
-  text-decoration: underline;
-}
-.portfolio-phone-num-text {
-  color: var(--dl-color-gray-white);
-  font-size: 25px;
-  text-align: center;
-  transition: 0.3s;
-  font-family: "Overpass";
-  line-height: 1.65;
-}
-.portfolio-phone-num-text:hover {
-  background: repeating-linear-gradient(-45deg, red 0%, yellow 7.14%, lime, 21.4%, cyan 28.56%, blue 35.7%, magenta 42.84%, red 50%);
-  padding-top: var(--dl-space-space-unit);
-  border-color: var(--dl-color-gray-white);
-  border-width: 2px;
-  padding-left: var(--dl-space-space-doubleunit);
-  border-radius: 25px;
-  padding-right: var(--dl-space-space-doubleunit);
-  padding-bottom: var(--dl-space-space-unit);
-  background-color: #464646;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
 }
 .portfolio-separator {
   width: 100%;
@@ -798,9 +806,12 @@
   margin-right: var(--dl-space-space-doubleunit);
 }
 @media(max-width: 767px) {
+  .portfolio-social-links {
+    display: none;
+  }
   .portfolio-separator {
-    margin-top: 24px;
-    margin-bottom: 24px;
+    margin-top: 10px;
+    margin-bottom: 10px;
   }
   .portfolio-c-projects-blog {
     padding-left: 32px;
@@ -825,10 +836,7 @@
 }
 @media(max-width: 479px) {
   .portfolio-container1 {
-    gap: var(--dl-space-space-unit);
-  }
-  .portfolio-social-links {
-    display: none;
+    justify-content: space-between;
   }
   .portfolio-email-text {
     font-size: 20px;
@@ -836,9 +844,12 @@
   .portfolio-phone-num-text {
     font-size: 20px;
   }
+  .portfolio-social-links {
+    display: none;
+  }
   .portfolio-separator {
-    margin-top: var(--dl-space-space-unit);
-    margin-bottom: var(--dl-space-space-unit);
+    margin-top: U10pxnit;
+    margin-bottom: U10pxnit;
   }
   .portfolio-navigation-links-container {
     display: flex;
